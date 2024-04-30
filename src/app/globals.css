@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 html,
@@ -13,4 +14,38 @@ body {
 body {
   background: linear-gradient(to bottom, #ffffff, #9dbcd4);
   min-height: 100vh;
+}
+.nav__item {
+  background-color: #314459;
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px #314459 solid;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.textContainer {
+  border: 1px solid black;
+  width: 30%;
+  justify-content: space-around;
+  background-color: #f0f0f0;
+  padding: 25px;
+  border-radius: 25px;
+}
+
+.textContainer p {
+  font-size: large;
+  padding: 15px;
+  margin: 15px;
+}
+
+.pictureContainer {
+  border: 2px black solid;
+  border-radius: 10%;
+}
+.imageWrapper {
+  border-radius: 10%; /* Apply border radius to create the circular border */
+  overflow: hidden; /* Ensure the image stays within the boundaries of the wrapper */
 }
