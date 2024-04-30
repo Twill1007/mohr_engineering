@@ -1,12 +1,11 @@
 "use client";
 import Link from "next/link";
-import ME_logo from "../../constants/images/ME_logo.png";
+import Image from "next/image";
 import React, { useState } from "react";
 import NavItem from "./NavItem";
 import "../components/NavBar.css";
 
 const MENU_LIST = [
-  { text: "Home", href: "/" },
   { text: "Work", href: "/work" },
   { text: "About Mohr", href: "/about" },
   { text: "Contact", href: "/contact" },
@@ -19,10 +18,12 @@ function NavBar() {
   return (
     <header>
       <nav className={`nav`}>
-        <Link href={"/"}>
+        <Link href={"/home"}>
           <div>
-            <img
-              src={ME_logo}
+            <Image
+              src="/Mohr_LOGO_Horiz.png"
+              width={300}
+              height={100}
               alt="logo"
             />
           </div>
@@ -34,11 +35,11 @@ function NavBar() {
           <div></div>
           <div></div>
           <div></div>
-          <div></div>
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, idx) => (
             <div
+              style={{ border: "black 1px solid" }}
               onClick={() => {
                 setActiveIdx(idx);
                 setNavActive(false);

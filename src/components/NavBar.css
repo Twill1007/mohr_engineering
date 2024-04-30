@@ -20,7 +20,6 @@ nav {
   padding: 16px;
   justify-content: space-between;
   align-items: center;
-  background-color: #f1f1f1;
 }
 .nav__menu-bar {
   display: flex;
@@ -38,17 +37,16 @@ nav {
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 60px;
+  top: 90px;
   width: 288px;
   row-gap: 24px;
   right: -288px;
   padding: 24px 16px;
   transition: all 0.2s;
-  min-height: calc(100vh - 60px);
-  background-color: #f1f1f1;
 }
 .nav__menu-list.active {
   right: 0;
+  background-color: #f1f1f1;
 }
 .nav__link {
   font-size: 18px;
