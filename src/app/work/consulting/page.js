@@ -17,7 +17,7 @@ function ConsultingPage() {
           <div>
             <div className="imageWrapper aircraftImageFirst">
               <Image
-                src="/smallPlan.png"
+                src="/IMG_5463.jpeg"
                 width={800}
                 height={500}
                 alt="Cessna"

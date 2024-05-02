@@ -1,3 +1,6 @@
+import Image from "next/image";
+import "@/app/about/aboutPage.css";
+
 function AboutPage() {
   return (
     <>
@@ -10,11 +13,17 @@ function AboutPage() {
       >
         About Mohr Engineering
       </h1>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <div style={{ width: "500px", backgroundColor: "red" }}>
-          <h1>Picture</h1>
+      <div className="aboutMohr">
+        <div>
+          <Image
+            src="/IMG_3054.jpeg"
+            width={700}
+            height={500}
+            alt="Cessna"
+          />
         </div>
-        <div style={{ backgroundColor: "blue", width: "500px" }}>
+
+        <div>
           Mohr Engineering Services is based in Blackfoot, Idaho and was started
           in 2019 by Trevor Williams to provide consulting services to the
           aerospace/aviation industry. The name Mohr comes from Mohr’s Circle in
@@ -26,17 +35,20 @@ function AboutPage() {
           quality engineering services.
         </div>
       </div>
+
       <h1
         style={{
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
+          padding: "35px",
+          margin: "35px",
         }}
       >
         About Trevor Williams
       </h1>
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
-        <div style={{ backgroundColor: "blue", width: "500px" }}>
+      <div className="aboutTrevor">
+        <div>
           As soon as I got my mechanical engineering degree, I kicked off my
           career as an engineer for an aerospace company in western Washington.
           I started out as a designer but early on I became intrigued with
@@ -66,8 +78,13 @@ function AboutPage() {
           See STC section on this website. Now I can fly my whole family and
           share the joy of aviation all together!
         </div>
-        <div style={{ width: "500px", backgroundColor: "red" }}>
-          <h1>Picture</h1>
+        <div>
+          <Image
+            src="/IMG_5457.jpeg"
+            width={500}
+            height={900}
+            alt="Cessna"
+          />
         </div>
       </div>
     </>

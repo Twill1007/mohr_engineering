@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "@/app/globals.css";
+import "@/app/work/stc/stcPage.css";
 
 function STCPage() {
   const airCraftInfo = {
@@ -26,7 +26,7 @@ function STCPage() {
           alt="small aircraft Cessna 182"
         />
       </div>
-      <div className="textContainer">
+      <div className="STCTextContainer">
         <h2>{airCraftInfo.aircraft}</h2>
         <p>
           <strong>What:</strong> {airCraftInfo.what}

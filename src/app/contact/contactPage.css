@@ -1,0 +1,7 @@
+.background {
+  background-image: url("../../../public/IMG_3638.jpeg"); /* Set the background image */
+  background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the background image */
+
+  height: 100vh;
+}
