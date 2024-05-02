@@ -1,4 +1,5 @@
 import "@/app/home/homePage.css";
+import { Video } from "../ui/Video";
 
 function HomePage() {
   return (
@@ -9,7 +10,9 @@ function HomePage() {
         </h1>
       </div>
       <div className="videoContainer">
-        <div>Video</div>
+        <div>
+          <Video />
+        </div>
       </div>
     </>
   );

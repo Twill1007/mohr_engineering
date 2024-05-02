@@ -1,0 +1,52 @@
+.textContainer {
+  width: 30%;
+  justify-content: space-around;
+  background-color: transparent;
+  align-items: center;
+  padding: 10px; /* Removed quotes around 10px */
+  border-radius: 25px;
+}
+
+.textContainer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; /* Adjusted font size for better readability */
+  animation-name: fadeIn; /* Renamed animation for text */
+  animation-duration: 1s;
+}
+
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.aircraftImageFirst {
+  animation-name: aircraftImageFirst;
+  animation-duration: 1s;
+}
+
+.aircraftImageSecond {
+  animation-name: aircraftImageSecond;
+  animation-duration: 1s;
+}
+
+@keyframes aircraftImageFirst {
+  0% {
+    left: -1200px;
+    top: 0px;
+    opacity: 0;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes aircraftImageSecond {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
