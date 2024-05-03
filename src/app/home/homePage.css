@@ -21,11 +21,78 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
+  text-align: center;
+  padding-bottom: 25px;
 }
 .roboto-thin-ital {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: italic;
+}
+
+.homePageTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
+.homePageTextContainer h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homePageTextContainer h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homePageTextContainer p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  width: 600px;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.homePagePictureContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.homePagePictureContainer div {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.b747Pic {
+  transition: filter 0.3s ease; /* Smooth transition effect */
+}
+
+.b747Pic:hover {
+  filter: brightness(70%);
+}
+
+.stcSeatBelt {
+  transition: filter 0.3s ease; /* Smooth transition effect */
+}
+
+.stcSeatBelt:hover {
+  filter: brightness(70%);
 }
 
 @media screen and (max-width: 1050px) {

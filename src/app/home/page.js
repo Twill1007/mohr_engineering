@@ -1,3 +1,4 @@
+"use client";
 import "@/app/home/homePage.css";
 import { Video } from "../ui/Video";
 import Link from "next/link";
@@ -56,22 +57,64 @@ function HomePage() {
               </div>
             </div>
           </div>
-          <div>
-            <h1>Engineering Consultants</h1>
-            <h2>FAA STC No. SA02784SE</h2>
-          </div>
-          <Link href={"/work/consulting"}>
-            <a>
-              <Image
-                src="/B747.jpg"
-                width={100}
-                height={100}
-                priority={true} // {false} | {true}
-                alt="logo"
-              />
-            </a>
-          </Link>
         </div>
+      </div>
+
+      <div className="homePageTextContainer">
+        <div
+          style={{
+            borderTop: "8px solid #314459",
+            borderRadius: "20px",
+            width: "75%",
+          }}
+        ></div>
+
+        <h2
+          style={{ paddingTop: "50px" }}
+          className="roboto-thin"
+        >
+          Mohr Engineering specializes in offering tailored consulting services
+          to aerospace entities in need of expert guidance in stress analysis
+          for their projects.
+        </h2>
+        <p>FAA STC No.SA02784SE</p>
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <div
+          style={{
+            borderBottom: "8px solid #314459",
+            borderRadius: "20px",
+            width: "75%",
+          }}
+        ></div>
+      </div>
+      <div className="homePagePictureContainer">
+        <Link
+          className="b747Pic"
+          href="/work/consulting"
+        >
+          <Image
+            src="/B747.jpg"
+            width={500}
+            height={500}
+            priority={true} // {false} | {true}
+            alt="B747 plane"
+          />
+          <div style={{ fontWeight: "bolder" }}>Consulting</div>
+        </Link>
+        <Link
+          className="stcSeatBelt"
+          href="/work/stc"
+        >
+          <Image
+            src="/SeatBelt.png"
+            width={500}
+            height={500}
+            priority={true} // {false} | {true}
+            alt="Seat Belts in back of Cessna 182"
+          ></Image>
+          <div style={{ fontWeight: "bolder" }}>STC</div>
+        </Link>
       </div>
     </>
   );

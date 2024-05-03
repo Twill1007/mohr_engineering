@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar";
 import Head from "next/head";
+import Footer from "@/components/Footer";
 import "@/app/globals.css";
 
 export default function RootLayout({ children }) {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         </Head>
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

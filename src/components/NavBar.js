@@ -24,7 +24,10 @@ function NavBar() {
   return (
     <header>
       <nav className={`nav`}>
-        <Link href={"/home"}>
+        <Link
+          href={"/home"}
+          legacyBehavior
+        >
           <div>
             <Image
               src="/Mohr_LOGO_Horiz.png"
@@ -54,6 +57,7 @@ function NavBar() {
                       <Link
                         href={option.href}
                         key={index}
+                        legacyBehavior
                       >
                         <div
                           className={`nav__menu-item ${

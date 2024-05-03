@@ -1,0 +1,13 @@
+/* Footer.module.css */
+
+.footer {
+  background-color: #c7dcf7;
+  color: black;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
