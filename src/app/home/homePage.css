@@ -1,3 +1,7 @@
+h2 {
+  width: 800px;
+}
+
 .mainContainer {
   display: flex;
   align-items: center;
@@ -6,11 +10,22 @@
 }
 
 .videoContainer {
-  display: flex;
+  position: relative;
   justify-content: center;
+  width: 100%;
 
-  padding: 60px;
-  min-height: 500px;
+  height: auto;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.roboto-thin-ital {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
 }
 
 @media screen and (max-width: 1050px) {

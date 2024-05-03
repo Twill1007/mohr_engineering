@@ -6,58 +6,46 @@ import "../consulting/ConsultingPage.css";
 function ConsultingPage() {
   return (
     <>
-      <div style={{ marginTop: "100px" }}>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-            alignItems: "center",
-          }}
-        >
+      <div className="firstSectionConatainer">
+        <div className="imageWrapper aircraftImageFirst">
+          <Image
+            src="/IMG_5463.jpeg"
+            width={800}
+            height={500}
+            priority={false} // {false} | {true}
+            alt="Cessna"
+          />
+        </div>
+        <div className="textContainer">
           <div>
-            <div className="imageWrapper aircraftImageFirst">
-              <Image
-                src="/IMG_5463.jpeg"
-                width={800}
-                height={500}
-                alt="Cessna"
-              />
-            </div>
-          </div>
-          <div className="textContainer">
             <p>
               Mohr Engineering specializes in offering tailored consulting
               services to aerospace entities in need of expert guidance in
-              stress analysis for their projects.
+              stress analysis for their projects. <p> </p>
             </p>
           </div>
         </div>
       </div>
-      <div>
-        <div
-          style={{
-            display: "flex",
-            paddingTop: "150px",
-            justifyContent: "space-around",
-          }}
-        >
-          <div className="textContainer">
+
+      <div className="secondSectionContainer">
+        <div className="textContainer">
+          <div>
             <p>
               With a wealth of experience and in-depth knowledge, we navigate
               the intricacies of the Federal Aviation Regulations (FAR) Part 23
-              and 25 with finesse. Our proficiency extends to a spectrum of
-              stress analysis domains, ensuring comprehensive support for our
-              clientele.
+              and 25. Our proficiency extends to a spectrum of stress analysis
+              domains, ensuring comprehensive support for our clientele.
             </p>
           </div>
-          <div className="imageWrapper aircraftImageSecond">
-            <Image
-              src="/interiorAircraft.jpg"
-              width={1000}
-              height={500}
-              alt="interior of aircraft"
-            />
-          </div>
+        </div>
+        <div className="imageWrapper aircraftImageSecond">
+          <Image
+            src="/interiorAircraft.jpg"
+            width={1000}
+            height={500}
+            priority={false} // {false} | {true}
+            alt="interior of aircraft"
+          />
         </div>
       </div>
     </>

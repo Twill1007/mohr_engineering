@@ -1,3 +1,9 @@
+.STCContainer {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
 .STCTextContainer {
   width: 50%;
   justify-content: center;
@@ -11,11 +17,65 @@
   padding-bottom: 150px;
 }
 
+.imageWrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+
 @keyframes STCFadeIn {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1450px) {
+  .STCContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .STCTextContainer h2 {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding-bottom: 100px;
+  }
+  .STCTextContainer p {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 950px) {
+  .STCContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+  }
+  .STCTextContainer h2 {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding-bottom: 25px;
+  }
+  .STCTextContainer p {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding-bottom: 25px;
   }
 }

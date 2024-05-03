@@ -30,6 +30,7 @@ function NavBar() {
               src="/Mohr_LOGO_Horiz.png"
               width={300}
               height={100}
+              priority={true} // {false} | {true}
               alt="logo"
             />
           </div>

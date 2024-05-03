@@ -11,14 +11,8 @@ function STCPage() {
       "The STC installation modifies the hardware at the center seat belt attachment to accommodate a third seat belt. The hardware modification is necessary to position the seat belt ends for proper loading into the structure. A placard installation on the back of the pilot seat is also required. Installation time (including paperwork) is about a couple hours for the A&P/IA.",
   };
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "space-around",
-        paddingTop: "100px",
-      }}
-    >
-      <div>
+    <div className="STCContainer">
+      <div className="imageWrapper">
         <Image
           src="/Cessna_182.jpg"
           width={750}
