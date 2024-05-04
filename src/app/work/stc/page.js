@@ -1,5 +1,6 @@
 import Image from "next/image";
 import "@/app/work/stc/stcPage.css";
+import { Video } from "@/app/ui/Video";
 
 function STCPage() {
   const airCraftInfo = {
@@ -13,12 +14,7 @@ function STCPage() {
   return (
     <div className="STCContainer">
       <div className="imageWrapper">
-        <Image
-          src="/Cessna_182.jpg"
-          width={750}
-          height={500}
-          alt="small aircraft Cessna 182"
-        />
+        <Video />
       </div>
       <div className="STCTextContainer">
         <h2>{airCraftInfo.aircraft}</h2>

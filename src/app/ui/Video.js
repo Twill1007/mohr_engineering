@@ -1,4 +1,4 @@
-export function Video() {
+export function VideoLoop() {
   return (
     <div
       style={{
@@ -23,6 +23,29 @@ export function Video() {
       >
         <source
           src="/LoopedVideo.mp4"
+          type="video/mp4"
+        />
+        <h1>Mohr Engineering Services, LLC</h1>
+      </video>
+    </div>
+  );
+}
+
+export function Video() {
+  return (
+    <div>
+      <video
+        style={{
+          width: "100%",
+          height: "400px",
+          top: 0,
+          left: 0,
+        }}
+        controls
+        preload="none"
+      >
+        <source
+          src="/MohrEng_All5_HD.mp4"
           type="video/mp4"
         />
         <h1>Mohr Engineering Services, LLC</h1>

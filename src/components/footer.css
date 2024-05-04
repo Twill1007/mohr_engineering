@@ -11,3 +11,15 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.roboto-thin-ital {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}

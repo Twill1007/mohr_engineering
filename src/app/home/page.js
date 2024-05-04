@@ -1,6 +1,6 @@
 "use client";
 import "@/app/home/homePage.css";
-import { Video } from "../ui/Video";
+import { VideoLoop } from "../ui/Video";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,7 +11,7 @@ function HomePage() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="videoContainer">
           <div>
-            <Video />
+            <VideoLoop />
             <div
               style={{
                 position: "absolute",
@@ -100,7 +100,7 @@ function HomePage() {
             priority={true} // {false} | {true}
             alt="B747 plane"
           />
-          <div style={{ fontWeight: "bolder" }}>Consulting</div>
+          <div className="roboto-thin-buttons">Consulting</div>
         </Link>
         <Link
           className="stcSeatBelt"
@@ -113,7 +113,7 @@ function HomePage() {
             priority={true} // {false} | {true}
             alt="Seat Belts in back of Cessna 182"
           ></Image>
-          <div style={{ fontWeight: "bolder" }}>STC</div>
+          <div className="roboto-thin-buttons">STC</div>
         </Link>
       </div>
     </>

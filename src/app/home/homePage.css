@@ -13,7 +13,6 @@ h2 {
   position: relative;
   justify-content: center;
   width: 100%;
-
   height: auto;
 }
 
@@ -28,6 +27,14 @@ h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: italic;
+}
+
+.roboto-thin-buttons {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+  text-align: center;
+  padding-bottom: 0px;
 }
 
 .homePageTextContainer {

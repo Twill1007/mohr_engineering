@@ -12,7 +12,9 @@ function Footer() {
           priority={true} // {false} | {true}
           alt="logo"
         />
-        <p>© 2024 Mohr Engineering Services, LLC. All rights reserved.</p>
+        <p className="roboto-thin">
+          © 2024 Mohr Engineering Services, LLC. All rights reserved.
+        </p>
       </div>
     </footer>
   );
