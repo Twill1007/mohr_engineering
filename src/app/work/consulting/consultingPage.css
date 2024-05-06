@@ -1,10 +1,36 @@
 .imagesContainer {
   display: flex;
+  flex-direction: column;
   justify-content: flex-start;
-  margin: 25px;
 }
-.imageContainer {
-  width: 1500px;
+.imageContainer1 {
+  width: 100%;
+
+  align-self: center;
+  animation-name: ConsultingFadeIn;
+  animation-duration: 2s;
+}
+
+.imageContainer2 {
+  width: 50%;
+  padding-right: 25px;
+  margin-left: auto;
+  animation-name: ConsultingFadeIn;
+  animation-duration: 2s;
+}
+
+.h1Container {
+  padding-top: 30px;
+  font-size: 70px;
+}
+
+@keyframes ConsultingFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* 
