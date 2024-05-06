@@ -1,54 +1,35 @@
 import React from "react";
-// import { motion } from "framer-motion";
 import Image from "next/image";
 import "../consulting/ConsultingPage.css";
 
+// Import your images
+import LrgPlaneLandImage from "../../../../public/LrgPlaneLand.jpg";
+import Cessna182Image from "../../../../public/Cessna_182.jpg";
+
 function ConsultingPage() {
   return (
-    <>
-      <div className="firstSectionConatainer">
-        <div className="imageWrapper aircraftImageFirst">
-          <Image
-            src="/IMG_5463.jpeg"
-            width={800}
-            height={500}
-            priority={false} // {false} | {true}
-            alt="Cessna"
-          />
-        </div>
-        <div className="textContainer">
-          <div>
-            <p>
-              Mohr Engineering specializes in offering tailored consulting
-              services to aerospace entities in need of expert guidance in
-              stress analysis for their projects. <p> </p>
-            </p>
+    <div style={{ height: "100vh" }}>
+      <div>
+        <div className="imagesContainer">
+          <div className="imageContainer">
+            <Image
+              src={LrgPlaneLandImage}
+              layout="responsive"
+              alt="Large Plane Landing"
+            />
+          </div>
+          <div className="imageContainer">
+            <Image
+              src={Cessna182Image}
+              layout="responsive"
+              alt="Small Plane Landing"
+            />
           </div>
         </div>
       </div>
 
-      <div className="secondSectionContainer">
-        <div className="textContainer">
-          <div>
-            <p>
-              With a wealth of experience and in-depth knowledge, we navigate
-              the intricacies of the Federal Aviation Regulations (FAR) Part 23
-              and 25. Our proficiency extends to a spectrum of stress analysis
-              domains, ensuring comprehensive support for our clientele.
-            </p>
-          </div>
-        </div>
-        <div className="imageWrapper aircraftImageSecond">
-          <Image
-            src="/interiorAircraft.jpg"
-            width={1000}
-            height={500}
-            priority={false} // {false} | {true}
-            alt="interior of aircraft"
-          />
-        </div>
-      </div>
-    </>
+      <div>ConsultingPage</div>
+    </div>
   );
 }
 

@@ -77,7 +77,6 @@ function HomePage() {
           to aerospace entities in need of expert guidance in stress analysis
           for their projects.
         </h2>
-        <p>FAA STC No.SA02784SE</p>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div
@@ -95,7 +94,7 @@ function HomePage() {
         >
           <Image
             src="/B747.jpg"
-            width={500}
+            width={700}
             height={500}
             priority={true} // {false} | {true}
             alt="B747 plane"
@@ -106,13 +105,15 @@ function HomePage() {
           className="stcSeatBelt"
           href="/work/stc"
         >
-          <Image
-            src="/SeatBelt.png"
-            width={500}
-            height={500}
-            priority={true} // {false} | {true}
-            alt="Seat Belts in back of Cessna 182"
-          ></Image>
+          <div style={{ width: "100%", maxWidth: "700px" }}>
+            <Image
+              src="/SeatBelt.png"
+              width={700} // Set the desired width in pixels
+              height={500} // Set the desired height in pixels
+              priority={true} // or {false}
+              alt="Seat Belts in back of Cessna 182"
+            />
+          </div>
           <div className="roboto-thin-buttons">STC</div>
         </Link>
       </div>

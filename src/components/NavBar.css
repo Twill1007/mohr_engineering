@@ -17,7 +17,7 @@ header {
 }
 nav {
   display: flex;
-  padding: 16px;
+  padding: 0px 8px;
   justify-content: space-between;
   align-items: center;
   background-color: #c7dcf7;
@@ -51,7 +51,7 @@ nav {
 }
 .links {
   background-color: #314459;
-  padding: 10px 30px;
+  padding: 10px 50px;
   margin: 10px;
   border-radius: 10px;
   border: 1px #314459 solid;
@@ -77,15 +77,18 @@ nav {
 
 .dropdown {
   background-color: #314459;
-  padding: 10px 30px;
+  padding: 20px 50px;
   margin: 10px;
   border-radius: 10px;
   border: 1px #314459 solid;
   color: white;
+  font-size: large;
+  cursor: pointer;
 }
 
 .nav__dropdown-header {
   font-size: 18px;
+  font-weight: bold;
   padding: 10px;
   cursor: pointer;
   transition: all 0.2s;
