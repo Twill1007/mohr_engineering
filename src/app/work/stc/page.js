@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "@/app/work/stc/stcPage.css";
-import { Video } from "@/app/ui/Video";
+import { Video } from "@/app/ui/LoopedVideo";
 
 function STCPage() {
   const airCraftInfo = {
@@ -12,23 +12,65 @@ function STCPage() {
       "The STC installation modifies the hardware at the center seat belt attachment to accommodate a third seat belt. The hardware modification is necessary to position the seat belt ends for proper loading into the structure. A placard installation on the back of the pilot seat is also required. Installation time (including paperwork) is about a couple hours for the A&P/IA.",
   };
   return (
-    <div className="STCContainer">
+    <>
       <div className="imageWrapper">
+        <h1>FAA STC No. SA02784SE</h1>
+      </div>
+      <div>
         <Video />
       </div>
-      <div className="STCTextContainer">
-        <h2>{airCraftInfo.aircraft}</h2>
-        <p>
-          <strong>What:</strong> {airCraftInfo.what}
-        </p>
-        <p>
-          <strong>Limitations:</strong> {airCraftInfo.limitations}
-        </p>
-        <p>
-          <strong>Installation:</strong> {airCraftInfo.installation}
-        </p>
+      <div className="STCContainer">
+        <div className="STCTextContainer">
+          <h2>{airCraftInfo.aircraft}</h2>
+          <p>
+            <strong>What:</strong> {airCraftInfo.what}
+          </p>
+          <p>
+            <strong>Limitations:</strong> {airCraftInfo.limitations}
+          </p>
+          <p>
+            <strong>Installation:</strong> {airCraftInfo.installation}
+          </p>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+            }}
+          >
+            <div
+              style={{
+                borderBottom: "8px solid #314459",
+                borderRadius: "20px",
+                width: "100%",
+              }}
+            ></div>
+            <h3 style={{ paddingTop: "50px" }}>
+              Call or Email today to get this STC for your aircraft!
+            </h3>
+            <h4>(360)391-7468 / mohreng@outlook.com</h4>
+          </div>
+        </div>
       </div>
-    </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <Image
+          style={{ padding: "50px" }}
+          src="/A21I6288.jpg"
+          width={700}
+          height={500}
+          priority={true} // {false} | {true}
+          alt="B747 plane"
+        />
+        <Image
+          style={{ padding: "50px" }}
+          src="/A21I6314.jpg"
+          width={700}
+          height={500}
+          priority={true} // {false} | {true}
+          alt="B747 plane"
+        />
+      </div>
+    </>
   );
 }
 

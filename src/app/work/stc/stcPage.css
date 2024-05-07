@@ -14,18 +14,24 @@
   font-size: 30px; /* Adjusted font size for better readability */
   animation-name: STCFadeIn; /* Renamed animation for text */
   animation-duration: 2s;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+}
+
+.STCTextContainer p {
+  padding: 20px 0px;
+  font-size: 30px; /* Adjusted font size for better readability */
+  animation-name: STCFadeIn; /* Renamed animation for text */
+  animation-duration: 2s;
+}
+
+.STCTextContainer p:nth-child(4) {
+  padding-bottom: 80px; /* Adjust the value as needed */
 }
 
 .imageWrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-.imageWrapper img {
-  width: 100%;
-  height: auto;
-  padding: 25px;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0px;
 }
 
 @keyframes STCFadeIn {

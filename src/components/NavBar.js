@@ -6,6 +6,7 @@ import NavItem from "./NavItem";
 import "../components/NavBar.css";
 
 const MENU_LIST = [
+  { text: "Home", href: "/home" },
   {
     text: "Work",
     options: [
@@ -42,6 +43,7 @@ function NavBar() {
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
         >
+          <div></div>
           <div></div>
           <div></div>
           <div></div>

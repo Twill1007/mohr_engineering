@@ -1,6 +1,6 @@
 "use client";
 import "@/app/home/homePage.css";
-import { VideoLoop } from "../ui/Video";
+import { VideoLoop } from "../ui/LoopedVideo";
 import Link from "next/link";
 import Image from "next/image";
 
