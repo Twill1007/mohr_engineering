@@ -22,18 +22,7 @@ function HomePage() {
                 backgroundColor: "rgba(0, 0, 0, 0.5)", // Dark semi-transparent background
               }}
             ></div>
-            <div
-              style={{
-                position: "absolute",
-                top: "35%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                textAlign: "center",
-                fontFamily: "Roboto",
-                color: "white", // Customize text color
-                fontSize: "40px",
-              }}
-            >
+            <div className="textOverlay">
               <div
                 style={{
                   paddingBottom: "50px",
@@ -45,7 +34,6 @@ function HomePage() {
               <div
                 style={{
                   textAlign: "center",
-
                   display: "flex",
                   justifyContent: "center",
                 }}
@@ -105,7 +93,7 @@ function HomePage() {
           className="stcSeatBelt"
           href="/work/stc"
         >
-          <div style={{ width: "100%", maxWidth: "700px" }}>
+          <div>
             <Image
               src="/SeatBelt.png"
               width={700} // Set the desired width in pixels
