@@ -63,20 +63,22 @@ function HomePage() {
           className="b747Pic"
           href="/work/consulting"
         >
-          <Image
-            src="/B747.jpg"
-            width={700}
-            height={500}
-            priority={true} // {false} | {true}
-            alt="B747 plane"
-          />
+          <div className="responsive-image">
+            <Image
+              src="/B747.jpg"
+              width={700}
+              height={500}
+              priority={true} // {false} | {true}
+              alt="B747 plane"
+            />
+          </div>
           <div className="roboto-thin-buttons">Consulting</div>
         </Link>
         <Link
           className="stcSeatBelt"
           href="/work/stc"
         >
-          <div>
+          <div className="responsive-image">
             <Image
               src="/SeatBelt.png"
               width={700} // Set the desired width in pixels

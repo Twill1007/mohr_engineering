@@ -111,6 +111,11 @@ h2 {
   font-size: 40px;
 }
 
+.responsive-image {
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: auto; /* Maintain the aspect ratio */
+}
+
 .b747Pic {
   transition: filter 0.3s ease; /* Smooth transition effect */
 }
@@ -360,8 +365,36 @@ h2 {
     width: 100%;
     flex-direction: column;
     padding-top: 0;
+    padding-bottom: 0;
     font-style: normal;
     text-align: center;
     font-size: 25px;
+  }
+
+  h2.roboto-thin {
+    padding-top: 25px;
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .homePageTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+  @media screen and (max-width: 655px) {
+    .homePagePictureContainer .roboto-thin-buttons {
+      font-family: "Roboto", sans-serif;
+      font-weight: bolder;
+      font-style: normal;
+      text-align: center;
+      padding-bottom: 0px;
+      font-size: 25px; /* Adjusted font size */
+    }
   }
 }
