@@ -18,8 +18,9 @@ h2 {
 
 .textOverlay {
   position: absolute;
-
-  top: 35%;
+  padding-bottom: 50px;
+  width: 1600px;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -27,13 +28,25 @@ h2 {
   color: white;
   font-size: 40px;
 }
-
+.textOverlay h2 {
+  position: absolute;
+  padding-bottom: 50px;
+  width: 1600px;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 40px;
+}
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   font-style: normal;
   text-align: center;
   padding-bottom: 25px;
+  padding-top: 50px;
 }
 .roboto-thin-ital {
   font-family: "Roboto", sans-serif;
@@ -250,9 +263,39 @@ h2 {
 /*  */
 /*  */
 
-@media screen and (max-width: 1185px) {
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 995px) {
   .textOverlay {
     position: absolute;
+    width: 100%;
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -261,62 +304,23 @@ h2 {
     color: white;
   }
 
-  .roboto-thin {
+  .roboto-thin-ital {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
-    font-style: normal;
-    text-align: center;
-    padding-bottom: 25px;
+    width: 100%;
+    font-style: italic;
+  }
+
+  .roboto-thin {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
     font-size: 35px;
   }
-}
+  .roboto-thin h2 {
+    width: 100%;
 
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-
-@media screen and (max-width: 809px) {
-  .textOverlay {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    color: white;
-  }
-
-  .roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    text-align: center;
-    padding-bottom: 25px;
     font-size: 25px;
   }
 }
@@ -350,12 +354,14 @@ h2 {
 /*  */
 /*  */
 
-@media screen and (max-width: 360px) {
-  .mainContainer h1 {
+@media screen and (max-width: 655px) {
+  .roboto-thin {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: small;
+    padding-top: 0;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
   }
 }

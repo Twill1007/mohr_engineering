@@ -23,26 +23,12 @@ function HomePage() {
               }}
             ></div>
             <div className="textOverlay">
-              <div
-                style={{
-                  paddingBottom: "50px",
-                  width: "1600px",
-                }}
-              >
-                <h1 className="roboto-thin">Mohr Engineering Services, LLC</h1>
-              </div>
-              <div
-                style={{
-                  textAlign: "center",
-                  display: "flex",
-                  justifyContent: "center",
-                }}
-              >
-                <h2 className="roboto-thin">
-                  Providing <span className="roboto-thin-ital">MORE</span>{" "}
-                  engineering for the aviation industry!
-                </h2>
-              </div>
+              <h1 className="roboto-thin">Mohr Engineering Services, LLC</h1>
+
+              <h2 className="roboto-thin">
+                Providing <span className="roboto-thin-ital">MORE </span>
+                engineering for the aviation industry!
+              </h2>
             </div>
           </div>
         </div>
@@ -57,10 +43,7 @@ function HomePage() {
           }}
         ></div>
 
-        <h2
-          style={{ paddingTop: "50px" }}
-          className="roboto-thin"
-        >
+        <h2 className="roboto-thin">
           Mohr Engineering specializes in offering tailored consulting services
           to aerospace entities in need of expert guidance in stress analysis
           for their projects.
