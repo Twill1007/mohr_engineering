@@ -66,10 +66,12 @@ function HomePage() {
           <div className="responsive-image">
             <Image
               src="/B747.jpg"
-              width={700}
-              height={500}
+              width={600}
+              height={400}
+              objectFit="cover"
               priority={true} // {false} | {true}
               alt="B747 plane"
+              className="image-wrapper-aircraft"
             />
           </div>
           <div className="roboto-thin-buttons">Consulting</div>
@@ -81,10 +83,12 @@ function HomePage() {
           <div className="responsive-image">
             <Image
               src="/SeatBelt.png"
-              width={700} // Set the desired width in pixels
-              height={500} // Set the desired height in pixels
+              width={600}
+              height={400}
+              objectFit="cover"
               priority={true} // or {false}
               alt="Seat Belts in back of Cessna 182"
+              className="image-wrapper-aircraft"
             />
           </div>
           <div className="roboto-thin-buttons">STC</div>

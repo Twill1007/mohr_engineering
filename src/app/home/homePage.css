@@ -112,8 +112,13 @@ h2 {
 }
 
 .responsive-image {
+  object-fit: fill;
   max-width: 100%; /* Ensure the image does not exceed its container */
   height: auto; /* Maintain the aspect ratio */
+}
+
+.image-wrapper-aircraft {
+  width: 100%; /* Ensure the image takes the full width of its container */
 }
 
 .b747Pic {
@@ -161,7 +166,7 @@ h2 {
 /*  */
 /*  */
 
-@media screen and (max-width: 1415px) {
+@media screen and (max-width: 1385px) {
   .textOverlay {
     position: absolute;
     top: 35%;
@@ -186,6 +191,11 @@ h2 {
     align-items: center;
     padding-top: 150px;
     padding-bottom: 150px;
+  }
+
+  .image-wrapper-aircraft {
+    width: 100%; /* Ensure the image takes the full width of its container */
+    height: 100%;
   }
 }
 
