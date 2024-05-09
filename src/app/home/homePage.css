@@ -9,7 +9,7 @@ h2 {
   text-align: center;
 }
 
-.videoContainer {
+.loopedVideoContainer {
   position: relative;
   justify-content: center;
   width: 100%;
@@ -112,14 +112,14 @@ h2 {
 }
 
 .responsive-image {
-  object-fit: fill;
+  /* object-fit: fill; */
   max-width: 100%; /* Ensure the image does not exceed its container */
   height: auto; /* Maintain the aspect ratio */
 }
 
-.image-wrapper-aircraft {
-  width: 100%; /* Ensure the image takes the full width of its container */
-}
+/* .image-wrapper-aircraft {
+  width: 100%; 
+} */
 
 .b747Pic {
   transition: filter 0.3s ease; /* Smooth transition effect */
@@ -193,10 +193,10 @@ h2 {
     padding-bottom: 150px;
   }
 
-  .image-wrapper-aircraft {
-    width: 100%; /* Ensure the image takes the full width of its container */
+  /* .image-wrapper-aircraft {
+    width: 100%;
     height: 100%;
-  }
+  } */
 }
 
 /*  */
@@ -249,40 +249,6 @@ h2 {
   }
 }
 
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
 /*  */
 /*  */
 /*  */
@@ -369,7 +335,7 @@ h2 {
 /*  */
 /*  */
 
-@media screen and (max-width: 655px) {
+@media screen and (max-width: 555px) {
   .roboto-thin {
     display: flex;
     width: 100%;
@@ -392,19 +358,29 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     padding-bottom: 25px;
     padding-top: 25px;
   }
 
-  @media screen and (max-width: 655px) {
-    .homePagePictureContainer .roboto-thin-buttons {
-      font-family: "Roboto", sans-serif;
-      font-weight: bolder;
-      font-style: normal;
-      text-align: center;
-      padding-bottom: 0px;
-      font-size: 25px; /* Adjusted font size */
-    }
+  .homePagePictureContainer .roboto-thin-buttons {
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 25px; /* Adjusted font size */
+  }
+
+  .image-wrapper-aircraft {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .homePagePictureContainer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

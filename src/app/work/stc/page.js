@@ -16,9 +16,7 @@ function STCPage() {
       <div className="imageWrapper">
         <h1>FAA STC No. SA02784SE</h1>
       </div>
-      <div>
-        <Video />
-      </div>
+      <Video />
       <div className="STCContainer">
         <div className="STCTextContainer">
           <h2>{airCraftInfo.aircraft}</h2>

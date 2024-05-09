@@ -1,3 +1,5 @@
+import "@/app/ui/loopedVideo.css";
+
 export function VideoLoop() {
   return (
     <div
@@ -33,9 +35,9 @@ export function VideoLoop() {
 
 export function Video() {
   return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
+    <div className="vidContainer">
       <video
-        style={{ width: "1500px", height: "auto" }}
+        className="videoContainer"
         controls
         // preload="none"
       >
@@ -43,7 +45,6 @@ export function Video() {
           src="/MohrEng_All5_HD.mp4"
           type="video/mp4"
         />
-        <h1>Mohr Engineering Services, LLC</h1>
       </video>
     </div>
   );

@@ -9,7 +9,7 @@ function HomePage() {
     <>
       <div className="mainContainer"></div>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <div className="videoContainer">
+        <div className="loopedVideoContainer">
           <div>
             <VideoLoop />
             <div
