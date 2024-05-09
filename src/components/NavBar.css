@@ -123,13 +123,13 @@ nav {
   background-color: #f0f0f0;
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1250px) {
   .nav__dropdown-header:hover {
     font-weight: bold;
   }
 }
 
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1250px) {
   .nav__menu-bar {
     display: none;
   }
@@ -154,5 +154,31 @@ nav {
 
   .nav__link:hover:before {
     width: 100%;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 1029px) {
+  .dropdown-content {
+    top: 13rem;
   }
 }

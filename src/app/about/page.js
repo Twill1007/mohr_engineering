@@ -34,19 +34,19 @@ function AboutPage() {
           <p>
             As soon as I got my mechanical engineering degree, I kicked off my
             career as an engineer for an aerospace company in western
-            Washington. I started out as a designer, but early on, I became
+            Washington. I started out as a designer but early on I became
             intrigued with stress analysis work and took advantage of an open
             position. This was a very enjoyable and fulfilling job! However, due
             to the close link of the aerospace industry with the economy’s ups
             and downs, I chose to obtain my Professional Engineering license to
-            help me be more valuable for other industries if I needed to make a
-            change.
+            help me to be more valuable for other industries if I needed to make
+            a change.
           </p>
 
           <p>
             After 10 years in aerospace as a Stress Engineer, I would later move
-            with my family of 5 to Idaho. Idaho would have fewer (basically
-            zero) aerospace job opportunities for engineers, but my passion for
+            with my family of 5 to Idaho. Idaho would have less (basically zero)
+            aerospace job opportunities for engineers but my passion for
             aerospace/aviation remained strong. It didn’t take long after moving
             to Idaho that I decided to start my own company to be able to do
             engineering work in aerospace. I started the company to do contract
@@ -65,11 +65,8 @@ function AboutPage() {
             in the back seat and make the plane a 5-seater. I decided the best
             aircraft to do this for was the Cessna 182. The 182 is a good pick
             as it is a very versatile aircraft which brings a well-rounded
-            combination of benefits: more power, speed, and great useful load
+            combination of benefits: more power, speed and great useful load
             than your typical pilot trainer. See STC section on this website.
-          </p>
-
-          <p>
             Now I can fly my whole family and share the joy of aviation all
             together!
           </p>

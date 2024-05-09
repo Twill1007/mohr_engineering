@@ -3,18 +3,35 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.imageContainer1 {
+.consultingTitleContainer {
+  text-align: center;
   width: 100%;
-
+  font-size: 30px;
   align-self: center;
+  padding: 35px 0px;
+  animation-name: ConsultingFadeIn;
+  animation-duration: 2s;
+}
+
+.consultingTextContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  animation-name: ConsultingFadeIn;
+  animation-duration: 2s;
+}
+
+.consultingTextContainer > div:first-child {
+  width: 50%;
+  font-size: 30px;
+  padding: 50px;
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
 }
 
 .imageContainer2 {
   width: 50%;
-  padding-right: 25px;
-  margin-left: auto;
+  padding: 50px;
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
 }
@@ -22,6 +39,10 @@
 .h1Container {
   padding-top: 30px;
   font-size: 70px;
+}
+
+.itemListContainer {
+  padding: 25px;
 }
 
 @keyframes ConsultingFadeIn {
@@ -33,92 +54,6 @@
   }
 }
 
-/* 
-.firstSectionConatainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.secondSectionContainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.textContainer {
-  display: flex;
-  width: 30%;
-  justify-content: center;
-  align-items: start;
-  background-color: transparent;
-}
-
-.textContainer p {
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  text-align: center;
-  font-size: 52px;
-  animation-name: fadeIn;
-  animation-duration: 5s;
-
-  padding: 25px 15px 25px 15px;
-}
-
-.imageWrapper {
-  position: relative;
-  overflow: hidden;
-}
-
-.imageWrapper img {
-  width: 100%;
-  height: auto;
-}
-
-.aircraftImageFirst {
-  animation-name: aircraftImageFirst;
-  animation-duration: 1s;
-}
-
-.aircraftImageSecond {
-  animation-name: aircraftImageSecond;
-  animation-duration: 1s;
-}
-
-@keyframes aircraftImageFirst {
-  0% {
-    left: -1200px;
-    top: 0px;
-    opacity: 0;
-  }
-  100% {
-    left: 0px;
-    top: 0px;
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes aircraftImageSecond {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
 /*  */
 /*  */
 /*  */
@@ -132,34 +67,19 @@
 /*  */
 /*  */
 /*  */
-/* 
-@media (max-width: 1450px) {
-  .firstSectionConatainer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-  }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
-  .secondSectionContainer {
-    display: flex;
+@media screen and (max-width: 1450px) {
+  .consultingTextContainer {
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    font-size: 20px;
   }
-
-  .textContainer {
-    width: 50%;
-    justify-content: center;
-    align-items: start;
-    background-color: transparent;
-  }
-
-  .textContainer p {
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    font-size: 40px;
-  }
-} */
+}
 
 /*  */
 /*  */
@@ -174,34 +94,37 @@
 /*  */
 /*  */
 /*  */
-/* 
-@media (max-width: 950px) {
-  .firstSectionConatainer {
-    display: flex;
-    flex-direction: column;
-  }
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
-  .secondSectionContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .textContainer {
-    justify-content: center;
-    align-items: start;
-    background-color: transparent;
-  }
-
-  .textContainer p {
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    font-size: 30px;
-    width: 300px;
-  }
-  .imageWrapper img {
+@media screen and (max-width: 950px) {
+  .consultingTitleContainer {
+    text-align: center;
     width: 100%;
-    height: auto;
-    padding: 15px;
+    font-size: 20px;
+    align-self: center;
+    padding: 15px 0px;
+    animation-name: ConsultingFadeIn;
+    animation-duration: 2s;
   }
-} */
+
+  .consultingTextContainer > div:first-child {
+    width: 75%;
+    font-size: 20px;
+    padding: 0px;
+    animation-name: ConsultingFadeIn;
+    animation-duration: 2s;
+  }
+
+  .imageContainer2 {
+    width: 100%;
+    padding: 5px;
+    animation-name: ConsultingFadeIn;
+    animation-duration: 2s;
+  }
+}

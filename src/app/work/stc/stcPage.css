@@ -14,7 +14,7 @@
   font-size: 30px; /* Adjusted font size for better readability */
   animation-name: STCFadeIn; /* Renamed animation for text */
   animation-duration: 2s;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 
 .STCTextContainer p {
@@ -25,13 +25,42 @@
 }
 
 .STCTextContainer p:nth-child(4) {
-  padding-bottom: 80px; /* Adjust the value as needed */
+  padding-bottom: 30px; /* Adjust the value as needed */
+}
+
+.STCTextContainer h2 {
+  text-align: start;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.STCTextContainer h3,
+.STCTextContainer h4 {
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.STCTextContainer h3 {
+  margin-top: 25px;
 }
 
 .imageWrapper {
   display: flex;
   justify-content: center;
   padding: 25px 0px;
+}
+
+.familySeatBeltImage {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.CessnaPictureContainer img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
 }
 
 @keyframes STCFadeIn {
@@ -43,28 +72,130 @@
   }
 }
 
-@media (max-width: 1450px) {
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media (max-width: 1732px) {
   .STCContainer {
-    display: flex;
+    padding-top: 25px;
+  }
+  .STCTextContainer {
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-size: 30px; /* Adjusted font size for better readability */
+    animation-name: STCFadeIn; /* Renamed animation for text */
+    animation-duration: 2s;
+    padding-bottom: 25px;
+  }
+  h3.STCTextContainer {
+    align-items: center;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media (max-width: 1300px) {
+  .familySeatBeltImage {
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
   }
-  .STCTextContainer h2 {
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
+  .familySeatBeltImage img {
+    width: 100%;
+    height: auto;
+  }
 
-    padding-bottom: 100px;
-  }
-  .STCTextContainer p {
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-bottom: 100px;
+  .CessnaPictureContainer {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
   }
 }
 
-@media (max-width: 950px) {
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media (max-width: 375px) {
+  .imageWrapper {
+    text-align: center;
+    padding-top: 0px;
+  }
+  .STCTextContainer h2,
+  .STCTextContainer p {
+    text-align: start;
+    padding: 15px 0px;
+    font-size: 30px;
+  }
+  .STCTextContainer h3,
+  .STCTextContainer h4 {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 25px;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* @media (max-width: 950px) {
   .STCContainer {
     display: flex;
     flex-direction: column;
@@ -84,4 +215,4 @@
     text-align: center;
     padding-bottom: 25px;
   }
-}
+} */

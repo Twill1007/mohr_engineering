@@ -6,8 +6,8 @@ h1 {
 
 .aboutContainer {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: start;
   animation-name: aboutFadeIn;
   animation-duration: 2s;
 }
@@ -17,7 +17,7 @@ h1 {
   font-size: 32px;
   font-weight: 500;
   padding: 25px;
-  text-align: center;
+  text-align: start;
 }
 
 .aboutTrevorContainer {
