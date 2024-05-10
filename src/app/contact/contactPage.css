@@ -2,7 +2,6 @@
   background-image: url("../../../public/IMG_3638.jpeg"); /* Set the background image */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the background image */
-
   height: 100vh;
 }
 
@@ -76,7 +75,7 @@
   .contactInfoContainer {
     display: flex;
     flex-direction: column;
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 
@@ -93,11 +92,3 @@
 /*  */
 /*  */
 /*  */
-
-@media screen and (max-width: 410px) {
-  .contactInfoContainer {
-    display: flex;
-    flex-direction: column;
-    font-size: 8px;
-  }
-}

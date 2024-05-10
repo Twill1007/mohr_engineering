@@ -12,8 +12,9 @@ function ContactPage() {
           }}
         >
           <div className="contactInfoContainer">
-            <h1>Call Today to get this STC for your aircraft!</h1>
-            <h1>360-391-7468</h1>
+            <h1>Call or email today!</h1>
+            <h1>(360)391-7468 </h1>
+            <h1>mohreng@outlook.com</h1>
           </div>
         </div>
       </div>

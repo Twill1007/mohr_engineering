@@ -39,7 +39,8 @@ export function Video() {
       <video
         className="videoContainer"
         controls
-        // preload="none"
+        preload="none"
+        poster="/A21I6314.jpg"
       >
         <source
           src="/MohrEng_All5_HD.mp4"

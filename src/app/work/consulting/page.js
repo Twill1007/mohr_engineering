@@ -7,12 +7,11 @@ import LrgPlaneLandImage from "../../../../public/PlaneLandSmall2.png";
 import Cessna182Image from "../../../../public/Cessna_182.jpg";
 
 const consultingList = [
-  "Sutructural substantiation reports for STC projects.",
-  "Interface-load reports, static test plans/reports dynamic test plans for seat mounted partitions.",
+  "Structural substantiation reports for STC projects.",
+  "Interface-load reports, static test plans/reports dynamic test plans for seats.",
   "Stress analysis via both classical hand techniques and FEMAP.",
-  "Interior monuments, aircraft floor (e.g. floor beams, seat tracks, floor panels), and aircraft side monument fittings.",
+  "Structural substantiation of interior monuments and aircraft primary structure.",
   "Design review.",
-  "See my About Page for more information.",
 ];
 
 function ConsultingPage() {
@@ -31,10 +30,10 @@ function ConsultingPage() {
       </div>
       <div className="consultingTextContainer">
         <div>
-          I provide consulting services for aerospace companies needing stress
-          analysis help for their projects. I have a great amount of experience
-          and understanding of the FAR’s Part 23 and 25 and stress analysis
-          doing the following:
+          Mohr Engineering provides consulting services for aerospace companies
+          needing stress analysis help for their projects. We have a great
+          amount of experience and understanding of the FAR’s Part 23 and 25 and
+          stress analysis doing the following:
           {consultingList.map((item, key) => (
             <ul
               className="itemListContainer"
