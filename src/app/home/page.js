@@ -44,9 +44,13 @@ function HomePage() {
         ></div>
 
         <h2 className="roboto-thin">
-          Mohr Engineering specializes in offering consulting services to
-          aerospace entities in need of expert guidance in loads and stress
-          analysis for their FAA certification projects.
+          Mohr Engineering excels in delivering top-tier consulting services
+          tailored to the specific needs of aerospace entities, particularly in
+          the realm of expert guidance for loads and stress analysis essential
+          for FAA certification projects. Our comprehensive documentation
+          ensures seamless compliance with FAA certification requirements,
+          satisfying all substantiation data needs with precision and
+          reliability.
         </h2>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>

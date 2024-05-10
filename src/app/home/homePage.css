@@ -67,7 +67,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 75px;
   padding-top: 75px;
 }
@@ -83,6 +83,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 75%;
 }
 .homePageTextContainer p {
   display: flex;
