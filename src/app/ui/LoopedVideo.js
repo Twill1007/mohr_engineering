@@ -24,7 +24,7 @@ export function VideoLoop() {
         preload="none"
       >
         <source
-          src="/LoopedVideo.mp4"
+          src="/LoopedVideo_V2.mp4"
           type="video/mp4"
         />
         <h1>Mohr Engineering Services, LLC</h1>
