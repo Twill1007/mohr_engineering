@@ -67,7 +67,7 @@ function STCPage() {
         <div>
           <Image
             // style={{ padding: "50px" }}
-            src="/A21I6314.jpg"
+            src="/kidsInBackOfPlane.jpg"
             width={700}
             height={500}
             priority={true} // {false} | {true}
