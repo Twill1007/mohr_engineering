@@ -37,14 +37,15 @@ h1 {
   text-align: left;
 }
 
-.aboutImageWrapper {
+/* .aboutImageWrapper {
   position: relative;
-}
+} */
 
-.aboutImageWrapper img {
+/* .aboutImageWrapper img {
+  width: 25%;
   height: auto;
   padding: 25px;
-}
+} */
 
 .aboutTrevorImageWrapper {
   position: relative;

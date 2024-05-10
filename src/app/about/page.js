@@ -9,8 +9,8 @@ function AboutPage() {
         <div className="aboutImageWrapper">
           <Image
             src="/IMG_3054.jpeg"
-            width={700}
-            height={500}
+            width={2000}
+            height={1800}
             alt="View from Cessna"
           />
         </div>
