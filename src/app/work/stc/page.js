@@ -61,7 +61,7 @@ function STCPage() {
             width={700}
             height={500}
             priority={true} // {false} | {true}
-            alt="B747 plane"
+            alt="Family Outside of Plane"
           />
         </div>
         <div>
@@ -71,7 +71,7 @@ function STCPage() {
             width={700}
             height={500}
             priority={true} // {false} | {true}
-            alt="B747 plane"
+            alt="Family Kids."
           />
         </div>
       </div>
