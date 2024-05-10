@@ -33,9 +33,9 @@ function ConsultingPage() {
       <div className="consultingTextContainer">
         <div>
           Mohr Engineering provides consulting services for aerospace companies
-          needing stress analysis help for their projects. We have a great
-          amount of experience and understanding of the FAR’s Part 23 and 25 and
-          stress analysis doing the following:
+          needing stress analysis and substantiation data for their FAA
+          certification projects. We have a great amount of experience and
+          understanding of the 14 CFR Part 23 and 25 in doing the following:
           {consultingList.map((item, key) => (
             <ul
               className="itemListContainer"

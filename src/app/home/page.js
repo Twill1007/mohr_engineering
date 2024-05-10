@@ -44,9 +44,9 @@ function HomePage() {
         ></div>
 
         <h2 className="roboto-thin">
-          Mohr Engineering specializes in offering tailored consulting services
-          to aerospace entities in need of expert guidance in stress analysis
-          for their projects.
+          Mohr Engineering specializes in offering consulting services to
+          aerospace entities in need of expert guidance in loads and stress
+          analysis for their FAA certification projects.
         </h2>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
