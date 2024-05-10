@@ -74,7 +74,7 @@ function AboutPage() {
 
         <div className="aboutTrevorImageWrapper">
           <Image
-            src="/IMG_5457.jpeg"
+            src="/TrevImage2.jpg"
             width={600}
             height={800}
             alt="Cessna"

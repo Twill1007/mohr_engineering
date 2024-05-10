@@ -3,7 +3,7 @@ import Image from "next/image";
 import "../consulting/ConsultingPage.css";
 
 // Import your images
-import LrgPlaneLandImage from "../../../../public/PlaneLandSmall2.png";
+
 import Cessna182Image from "../../../../public/Cessna_182.jpg";
 
 const consultingList = [
@@ -19,7 +19,9 @@ function ConsultingPage() {
     <div>
       <div className="imagesContainer">
         <Image
-          src={LrgPlaneLandImage}
+          src="/PlaneLandSmall2.png"
+          width={2000}
+          height={400}
           objectFit="cover"
           layout="responsive"
           alt="Large Plane Landing"

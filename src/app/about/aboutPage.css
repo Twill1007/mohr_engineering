@@ -7,17 +7,17 @@ h1 {
 .aboutContainer {
   display: flex;
   justify-content: flex-start;
-  align-items: start;
+  align-items: flex-start;
   animation-name: aboutFadeIn;
   animation-duration: 2s;
 }
 
 .aboutMohr {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 500;
   padding: 25px;
-  text-align: start;
+  text-align: flex-start;
 }
 
 .aboutTrevorContainer {
@@ -31,7 +31,7 @@ h1 {
 
 .aboutTrevor p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 300;
   padding: 25px;
   text-align: left;
@@ -48,6 +48,7 @@ h1 {
 
 .aboutTrevorImageWrapper {
   position: relative;
+  width: 100%;
 }
 
 .aboutTrevorImageWrapper img {
@@ -88,7 +89,6 @@ h1 {
   .aboutContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     animation-name: aboutFadeIn;
     animation-duration: 2s;
@@ -103,7 +103,11 @@ h1 {
     animation-duration: 2s;
   }
   .aboutMohr {
-    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  .aboutTrevor p {
+    font-size: 1.5rem;
   }
 }
 
@@ -118,24 +122,7 @@ h1 {
 /*  */
 /*  */
 
-@media (max-width: 950px) {
-  .aboutContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    animation-name: aboutFadeIn;
-    animation-duration: 2s;
-  }
-  .aboutTrevorContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    padding-bottom: 25px;
-    animation-name: aboutFadeIn;
-    animation-duration: 2s;
-  }
+@media screen and (max-width: 950px) {
   .aboutImageWrapper {
     position: relative;
     overflow: hidden;
@@ -146,30 +133,44 @@ h1 {
     height: auto;
   }
 
-  @keyframes aboutFadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-
   .aboutTrevorImageWrapper {
     position: relative;
   }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
+@media screen and (max-width: 600px) {
+  h1 {
+    display: flex;
+    justify-content: center;
+    padding: 25px 10px 10px 10px;
+    font-size: 1.4rem;
+  }
   .aboutTrevorImageWrapper img {
     width: 100%;
     height: auto;
   }
+  .aboutMohr {
+    font-size: 1.2rem;
+  }
 
-  @keyframes aboutFadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  .aboutTrevor p {
+    font-size: 1.2rem;
   }
 }

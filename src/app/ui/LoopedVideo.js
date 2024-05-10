@@ -40,7 +40,7 @@ export function Video() {
         className="videoContainer"
         controls
         preload="none"
-        poster="/A21I6314.jpg"
+        poster="/kidsSeatBeltImage2.jpg"
       >
         <source
           src="/MohrEng_All5_HD.mp4"

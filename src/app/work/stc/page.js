@@ -54,22 +54,26 @@ function STCPage() {
         </div>
       </div>
       <div className="familySeatBeltImage">
-        <Image
-          style={{ padding: "50px" }}
-          src="/A21I6288.jpg"
-          width={700}
-          height={500}
-          priority={true} // {false} | {true}
-          alt="B747 plane"
-        />
-        <Image
-          style={{ padding: "50px" }}
-          src="/A21I6314.jpg"
-          width={700}
-          height={500}
-          priority={true} // {false} | {true}
-          alt="B747 plane"
-        />
+        <div>
+          <Image
+            // style={{ padding: "50px" }}
+            src="/A21I6288.jpg"
+            width={700}
+            height={500}
+            priority={true} // {false} | {true}
+            alt="B747 plane"
+          />
+        </div>
+        <div>
+          <Image
+            // style={{ padding: "50px" }}
+            src="/A21I6314.jpg"
+            width={700}
+            height={500}
+            priority={true} // {false} | {true}
+            alt="B747 plane"
+          />
+        </div>
       </div>
     </>
   );
