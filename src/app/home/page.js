@@ -2,7 +2,7 @@
 import "@/app/home/homePage.css";
 import { VideoLoop } from "../ui/LoopedVideo";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 function HomePage() {
   return (

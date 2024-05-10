@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import "@/app/work/stc/stcPage.css";
 import { Video } from "@/app/ui/LoopedVideo";
 
