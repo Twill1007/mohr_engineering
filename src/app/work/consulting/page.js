@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "../consulting/ConsultingPage.css";
+import "@/app/work/consulting/consultingPage.css";
 
 // Import your images
 
