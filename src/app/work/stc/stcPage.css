@@ -19,7 +19,7 @@
 
 .STCTextContainer p {
   padding: 20px 0px;
-  font-size: 1.4rem; /* Adjusted font size for better readability */
+  font-size: 1.2rem; /* Adjusted font size for better readability */
   animation-name: STCFadeIn; /* Renamed animation for text */
   animation-duration: 2s;
 }
