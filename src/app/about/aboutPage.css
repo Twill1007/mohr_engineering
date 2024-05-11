@@ -181,9 +181,16 @@ h1 {
     padding: 25px 10px 10px 10px;
     font-size: 1.4rem;
   }
+
+  .aboutImageWrapper img {
+    width: 25%;
+    height: auto;
+    padding: 15px;
+  }
   .aboutTrevorImageWrapper img {
     width: 100%;
     height: auto;
+    padding: 15px;
   }
   .aboutMohr {
     font-size: 1rem;
