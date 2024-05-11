@@ -4,6 +4,11 @@ h1 {
   padding-top: 50px;
 }
 
+.aboutTitle {
+  animation-name: aboutFadeIn;
+  animation-duration: 2s;
+}
+
 .aboutContainer {
   display: flex;
   justify-content: flex-start;
@@ -19,6 +24,8 @@ h1 {
   font-weight: 500;
   padding: 25px;
   text-align: flex-start;
+  animation-name: aboutFadeIn;
+  animation-duration: 2s;
 }
 
 .aboutTrevorContainer {
@@ -33,7 +40,6 @@ h1 {
 
 .aboutTrevor p {
   font-family: Arial, Helvetica, sans-serif;
-
   font-weight: 300;
   padding: 25px;
   text-align: left;

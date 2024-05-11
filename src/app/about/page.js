@@ -4,7 +4,7 @@ import "@/app/about/aboutPage.css";
 function AboutPage() {
   return (
     <>
-      <h1>About Mohr Engineering</h1>
+      <h1 className="aboutTitle">About Mohr Engineering</h1>
       <div className="aboutContainer">
         <div className="aboutImageWrapper">
           <Image
@@ -29,7 +29,7 @@ function AboutPage() {
         </div>
       </div>
 
-      <h1>About Trevor Williams</h1>
+      <h1 className="aboutTitle">About Trevor Williams</h1>
       <div className="aboutTrevorContainer">
         <div className="aboutTrevor">
           <p>
