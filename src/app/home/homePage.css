@@ -65,7 +65,7 @@ h2 {
 }
 
 .mohrIntroTextContainer {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: center;
   padding: 50px;
   width: 50%;
@@ -222,7 +222,7 @@ h2 {
     font-size: 1.5rem;
     text-align: center;
     padding: 25px;
-    width: 75%;
+    width: 50%;
   }
 
   .image-wrapper-aircraft {
@@ -283,7 +283,7 @@ h2 {
     font-size: 1.2rem;
     text-align: center;
     padding: 15px;
-    width: 75%;
+    width: 50%;
   }
 }
 
@@ -401,7 +401,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25px;
+
     padding-top: 25px;
   }
 
@@ -430,6 +430,7 @@ h2 {
     font-size: 1rem;
     text-align: center;
     padding: 10px;
+    width: 75%;
   }
 
   .textOverlay {

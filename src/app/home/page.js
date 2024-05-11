@@ -41,7 +41,7 @@ function HomePage() {
           style={{
             borderTop: "8px solid #314459",
             borderRadius: "20px",
-            width: "75%",
+            width: "50%",
           }}
         ></div>
 
@@ -60,7 +60,7 @@ function HomePage() {
           style={{
             borderBottom: "8px solid #314459",
             borderRadius: "20px",
-            width: "75%",
+            width: "50%",
           }}
         ></div>
       </div>
