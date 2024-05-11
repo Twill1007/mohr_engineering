@@ -29,7 +29,7 @@ function NavBar() {
           href={"/home"}
           legacyBehavior
         >
-          <div>
+          <div className="logoContainer">
             <Image
               src="/Mohr_LOGO_Horiz.png"
               width={300}

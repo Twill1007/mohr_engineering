@@ -17,15 +17,18 @@ function AboutPage() {
         </div>
 
         <div className="aboutMohr">
-          Mohr Engineering Services is based in Blackfoot, Idaho and was started
-          in 2019 by Trevor Williams to provide consulting services to the
-          aerospace/aviation industry. The name Mohr comes from Mohr’s Circle in
-          mechanical stress analysis which is a graphical tool to help the
-          engineer visualize stress levels for different orientations. The name
-          Mohr indicates that the company does stress analysis and provides
-          “More” engineering for its clients. It is Mohr Engineering’s goal to
-          go beyond the client’s expectations by doing more and providing more
-          quality engineering services.
+          Mohr Engineering Services, headquartered in Blackfoot, Idaho, was
+          established in 2019 by Trevor Williams with a focus on delivering
+          consultancy expertise to the aerospace/aviation sector. The choice of
+          the name Mohr is derived from Mohr’s Circle, a fundamental tool in
+          mechanical stress analysis utilized to visually depict stress
+          distributions across various orientations. This nomenclature
+          underscores the company's specialization in stress analysis and
+          commitment to exceeding client expectations by delivering
+          comprehensive engineering solutions. Mohr Engineering endeavors to
+          provide superior quality engineering services, aiming to surpass
+          conventional standards and deliver unparalleled value to its
+          clientele.
         </div>
       </div>
 
@@ -33,43 +36,44 @@ function AboutPage() {
       <div className="aboutTrevorContainer">
         <div className="aboutTrevor">
           <p>
-            As soon as I got my mechanical engineering degree, I kicked off my
-            career as an engineer for an aerospace company in western
-            Washington. I started out as a designer but early on I became
-            intrigued with stress analysis work and took advantage of an open
-            position. This was a very enjoyable and fulfilling job! However, due
-            to the close link of the aerospace industry with the economy’s ups
-            and downs, I chose to obtain my Professional Engineering license to
-            help me to be more valuable for other industries if I needed to make
-            a change.
+            Upon graduating with a mechanical engineering degree, I embarked on
+            my professional journey as an engineer within the aerospace sector
+            in western Washington. Initially employed as a designer, my
+            fascination with stress analysis quickly emerged, leading me to
+            seize an opportunity in this field. This transition proved immensely
+            gratifying and intellectually stimulating. However, recognizing the
+            aerospace industry's susceptibility to economic fluctuations, I
+            pursued licensure as a Professional Engineer to enhance my
+            versatility and resilience across various industries.
           </p>
 
           <p>
-            After 10 years in aerospace as a Stress Engineer, I would later move
-            with my family of 5 to Idaho. Idaho would have less (basically zero)
-            aerospace job opportunities for engineers but my passion for
-            aerospace/aviation remained strong. It didn’t take long after moving
-            to Idaho that I decided to start my own company to be able to do
-            engineering work in aerospace. I started the company to do contract
-            consulting where I could use my stress analysis skills. I have had
-            contract jobs ranging from trains to planes doing stress engineering
-            work.
+            After a decade of dedicated service as a Stress Engineer in
+            aerospace, my family of five relocated to Idaho, a region with
+            minimal aerospace engineering opportunities. Despite this shift, my
+            passion for aerospace and aviation remained unwavering. Shortly
+            after settling in Idaho, I made the pivotal decision to establish my
+            own consultancy, aimed at offering engineering services tailored to
+            the aerospace domain. Specializing in contract consulting, I
+            leveraged my expertise in stress analysis across diverse projects,
+            spanning from trains to aircraft.
           </p>
 
           <p>
-            Around when the company was formed, I decided to obtain my private
-            pilot’s license as this was a long-awaited aspiration of mine. After
-            about 15 months of training, I finally achieved my goal. Now I could
-            share this with my family! But wait, I couldn’t share it with the
-            whole family as the aircraft I had access to in nearby clubs were
-            4-seaters. That’s when I had the idea: Develop an STC to seat 3 kids
-            in the back seat and make the plane a 5-seater. I decided the best
-            aircraft to do this for was the Cessna 182. The 182 is a good pick
-            as it is a very versatile aircraft which brings a well-rounded
-            combination of benefits: more power, speed and great useful load
-            than your typical pilot trainer. See STC section on this website.
-            Now I can fly my whole family and share the joy of aviation all
-            together!
+            Concurrent with the inception of my company, I embarked on a
+            personal milestone by obtaining my private pilot’s license—a
+            long-standing aspiration. Following training spanning over 15
+            months, I successfully attained this goal, eager to share the
+            experience with my family. However, the limitation of four-seater
+            aircraft in nearby clubs prompted an innovative solution: the
+            development of a Supplemental Type Certificate (STC) to accommodate
+            an additional passenger in the back seat, effectively transforming
+            the aircraft into a five-seater. Recognizing the Cessna 182's
+            versatility and performance attributes, I committed to this
+            endeavor, enabling me to realize the vision of flying with my entire
+            family and fostering a shared appreciation for aviation. For further
+            details on the STC development, please refer to the dedicated
+            section on our website.
           </p>
         </div>
 

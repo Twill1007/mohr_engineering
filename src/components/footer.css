@@ -28,3 +28,28 @@
   align-self: center;
   font-size: 1rem;
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 450px) {
+  .footerContent {
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+    background-color: red;
+  }
+}

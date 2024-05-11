@@ -21,6 +21,10 @@ nav {
   align-items: center;
   background-color: #c7dcf7;
 }
+.logoContainer {
+  width: 300px;
+  height: auto;
+}
 .nav__menu-bar {
   display: flex;
   flex-direction: column;
@@ -173,5 +177,45 @@ nav {
 @media screen and (max-width: 1029px) {
   .dropdown-content {
     top: 11rem;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  @media screen and (max-width: 450px) {
+    .logoContainer {
+      width: 150px;
+      height: auto;
+
+      padding: 5px;
+    }
+    .nav__menu-bar {
+      display: flex;
+      flex-direction: column;
+      row-gap: 4px;
+      cursor: pointer;
+    }
+    .nav__menu-bar div {
+      width: 30px;
+      height: 3px;
+      background-color: black;
+      border-radius: 2px;
+    }
   }
 }

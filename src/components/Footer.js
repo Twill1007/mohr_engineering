@@ -12,8 +12,8 @@ function Footer() {
           priority={true} // {false} | {true}
           alt="logo"
         />
-        <p className="footerCoContainer">Mohr Engineering Services, LLC.</p>
       </div>
+      <p className="footerCoContainer">Mohr Engineering Services, LLC.</p>
     </footer>
   );
 }
