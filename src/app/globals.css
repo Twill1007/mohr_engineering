@@ -18,7 +18,7 @@ body {
 .nav__item {
   background-color: #314459;
   padding: 20px 50px;
-  font-size: large;
+  font-size: 1.3rem;
   margin: 10px;
   border-radius: 10px;
   border: 1px #314459 solid;

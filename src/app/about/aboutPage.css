@@ -13,8 +13,9 @@ h1 {
 }
 
 .aboutMohr {
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+  font-size: 1.4rem;
   font-weight: 500;
   padding: 25px;
   text-align: flex-start;
@@ -23,6 +24,7 @@ h1 {
 .aboutTrevorContainer {
   display: flex;
   justify-content: space-around;
+  font-size: 1.4rem;
   width: 100%;
   padding-bottom: 25px;
   animation-name: aboutFadeIn;
@@ -31,7 +33,7 @@ h1 {
 
 .aboutTrevor p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2rem;
+
   font-weight: 300;
   padding: 25px;
   text-align: left;
@@ -39,6 +41,7 @@ h1 {
 
 .aboutImageWrapper {
   position: relative;
+  padding: 15px;
 }
 
 .aboutImageWrapper img {
@@ -49,6 +52,7 @@ h1 {
 
 .aboutTrevorImageWrapper {
   position: relative;
+  padding: 15px;
   width: 100%;
 }
 
@@ -104,11 +108,17 @@ h1 {
     animation-duration: 2s;
   }
   .aboutMohr {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .aboutTrevor p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .aboutTrevorImageWrapper img {
+    width: 50%;
+    height: auto;
+    padding: 25px;
   }
 }
 
@@ -136,6 +146,14 @@ h1 {
 
   .aboutTrevorImageWrapper {
     position: relative;
+  }
+
+  .aboutMohr {
+    font-size: 1rem;
+  }
+
+  .aboutTrevor p {
+    font-size: 1rem;
   }
 }
 /*  */
@@ -168,10 +186,10 @@ h1 {
     height: auto;
   }
   .aboutMohr {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .aboutTrevor p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
