@@ -45,7 +45,7 @@ function HomePage() {
           }}
         ></div>
 
-        <div className="roboto-thin">
+        <div className="mohrIntroTextContainer">
           Mohr Engineering excels in delivering top-tier consulting services
           tailored to the specific needs of aerospace entities, particularly in
           the realm of expert guidance for loads and stress analysis essential
