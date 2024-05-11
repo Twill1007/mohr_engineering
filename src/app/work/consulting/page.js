@@ -19,9 +19,9 @@ function ConsultingPage() {
     <div>
       <div className="imagesContainer">
         <Image
-          src="/PlaneLandSmall2.png"
+          src="/PlaneLandSmall.png"
           width={2000}
-          height={400}
+          height={775}
           objectFit="cover"
           layout="responsive"
           alt="Large Plane Landing"
