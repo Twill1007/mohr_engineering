@@ -25,7 +25,7 @@
 
 .consultingTextContainer > div:first-child {
   width: 50%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   padding: 50px;
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
@@ -44,6 +44,7 @@
 }
 
 .itemListContainer {
+  font-size: 1.5rem;
   padding: 25px;
 }
 
@@ -91,11 +92,12 @@
   }
   .consultingTextContainer > div:first-child {
     width: 75%;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 50px;
   }
   .itemListContainer {
-    padding: 20px;
+    font-size: 1.1rem;
+    padding: 15px;
   }
 }
 

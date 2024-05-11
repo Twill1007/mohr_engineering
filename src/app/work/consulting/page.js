@@ -49,8 +49,8 @@ function ConsultingPage() {
         <div className="imageContainer2">
           <Image
             src={Cessna182Image}
-            width={500}
-            height={500}
+            width={300}
+            height={200}
             layout="responsive"
             alt="Small Plane Landing"
           />
