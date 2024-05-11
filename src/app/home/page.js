@@ -23,7 +23,9 @@ function HomePage() {
               }}
             ></div>
             <div className="textOverlay">
-              <h1 className="roboto-thin">Mohr Engineering Services, LLC</h1>
+              <h1 className="roboto-thin-title">
+                Mohr Engineering Services, LLC
+              </h1>
 
               <h2 className="roboto-thin">
                 Providing <span className="roboto-thin-ital">MORE </span>
@@ -43,7 +45,7 @@ function HomePage() {
           }}
         ></div>
 
-        <h2 className="roboto-thin">
+        <div className="roboto-thin">
           Mohr Engineering excels in delivering top-tier consulting services
           tailored to the specific needs of aerospace entities, particularly in
           the realm of expert guidance for loads and stress analysis essential
@@ -51,7 +53,7 @@ function HomePage() {
           ensures seamless compliance with FAA certification requirements,
           satisfying all substantiation data needs with precision and
           reliability.
-        </h2>
+        </div>
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div

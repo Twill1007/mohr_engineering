@@ -43,9 +43,11 @@ h2 {
 .roboto-thin {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
+  width: 50%;
   font-style: normal;
+  font-size: 1.7rem;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 .roboto-thin-ital {
@@ -67,8 +69,8 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
-  padding-bottom: 75px;
+  font-size: 1.2rem;
+  /* padding-bottom: 75px; */
   padding-top: 75px;
 }
 
@@ -187,12 +189,21 @@ h2 {
     text-align: center;
     padding-bottom: 25px;
   }
+
+  .roboto-thin-title {
+    font-size: 1.7rem;
+  }
   .homePagePictureContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 150px;
     padding-bottom: 150px;
+  }
+
+  .textOverlay {
+    padding-bottom: 25px;
+    font-size: 1.5rem;
   }
 
   /* .image-wrapper-aircraft {
@@ -298,13 +309,18 @@ h2 {
     display: flex;
     width: 100%;
     flex-direction: column;
-
-    font-size: 35px;
+    font-size: 1.7rem;
+    padding-bottom: 15px;
   }
   .roboto-thin h2 {
     width: 100%;
+    font-size: 1.4rem;
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
 
-    font-size: 25px;
+  .textOverlay h2 {
+    padding-bottom: 25px;
   }
 }
 
@@ -351,7 +367,7 @@ h2 {
 
   h2.roboto-thin {
     padding-top: 25px;
-    font-size: 25px;
+    font-size: 1.3rem;
     width: 100%;
   }
 
@@ -384,5 +400,9 @@ h2 {
     justify-content: space-around;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .roboto-thin-title {
+    font-size: 1.3rem;
   }
 }
