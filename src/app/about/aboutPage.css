@@ -152,6 +152,9 @@ h1 {
 
   .aboutTrevorImageWrapper {
     position: relative;
+    width: 50%;
+    height: auto;
+    align-self: center;
   }
 
   .aboutMohr {
@@ -193,11 +196,7 @@ h1 {
     height: auto;
     padding: 15px;
   }
-  .aboutTrevorImageWrapper img {
-    width: 100%;
-    height: auto;
-    padding: 15px;
-  }
+
   .aboutMohr {
     font-size: 1rem;
   }
@@ -206,3 +205,27 @@ h1 {
     font-size: 1rem;
   }
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* @media screen and (max-width: 375px) {
+  .aboutTrevorImageWrapper {
+    position: relative;
+    width: 25%;
+    height: auto;
+    align-self: center;
+  }
+} */

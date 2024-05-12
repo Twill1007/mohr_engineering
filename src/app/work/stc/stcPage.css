@@ -1,7 +1,15 @@
+.STCNumContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 1.5rem;
+}
+
 .STCContainer {
   display: flex;
   justify-content: space-around;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .STCTextContainer {
@@ -94,7 +102,7 @@
 /*  */
 @media (max-width: 1732px) {
   .STCContainer {
-    padding-top: 25px;
+    padding-top: 5px;
   }
   .STCTextContainer {
     width: 75%;
@@ -158,6 +166,10 @@
   .STCTextContainer p {
     font-size: 1.1rem;
   }
+
+  .STCNumContainer {
+    font-size: 1.1rem;
+  }
 }
 
 /*  */
@@ -195,6 +207,10 @@
     text-align: center;
     padding: 10px 0px;
     font-size: 0.9rem;
+  }
+
+  .STCNumContainer {
+    font-size: 1rem;
   }
 }
 /*  */

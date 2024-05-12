@@ -8,7 +8,7 @@ import Cessna182Image from "../../../../public/Cessna_182.jpg";
 
 const consultingList = [
   "Structural substantiation reports for STC projects.",
-  "Interface-load reports, static test plans/reports dynamic test plans for seats.",
+  "Interface-load reports, static test plans/reports, and dynamic test plans for seats.",
   "Stress analysis via both classical hand techniques and FEMAP.",
   "Structural substantiation of interior monuments and aircraft primary structure.",
   "Design review.",
@@ -32,6 +32,13 @@ function ConsultingPage() {
       </div>
       <div className="consultingTextContainer">
         <div>
+          {/* <div
+            style={{
+              borderBottom: "8px solid #314459",
+              borderRadius: "20px",
+              width: "100%",
+            }}
+          ></div> */}
           Mohr Engineering provides consulting services for aerospace companies
           needing stress analysis and substantiation data for their FAA
           certification projects. We have a great amount of experience and
@@ -44,6 +51,13 @@ function ConsultingPage() {
               <li>{item}</li>
             </ul>
           ))}
+          {/* <div
+            style={{
+              borderBottom: "8px solid #314459",
+              borderRadius: "20px",
+              width: "100%",
+            }}
+          ></div> */}
         </div>
 
         <div className="imageContainer2">

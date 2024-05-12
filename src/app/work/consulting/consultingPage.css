@@ -18,15 +18,15 @@
 .consultingTextContainer {
   display: flex;
   justify-content: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
 }
 
 .consultingTextContainer > div:first-child {
   width: 50%;
-  font-size: 1.6rem;
-  padding: 50px;
+  font-size: 1.3rem;
+  padding: 50px 35px;
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
 }
@@ -44,8 +44,8 @@
 }
 
 .itemListContainer {
-  font-size: 1.5rem;
-  padding: 25px;
+  font-size: 1.1rem;
+  padding-top: 25px;
 }
 
 @keyframes ConsultingFadeIn {

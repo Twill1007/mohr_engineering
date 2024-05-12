@@ -7,7 +7,7 @@ function STCPage() {
     FAASTCNumber: "FAA STC No. SA02784SE",
     aircraft: "Cessna 182 models 182F through 182Q (except 1980 model)",
     description:
-      "This Supplemental Type Certificate (STC) facilitates the installation of a seat belt in the center of the rear bench seat of a Cessna 182 aircraft. By creating a third seat position in the rear bench seat, the STC enables seating for three children, effectively transforming the C182 into a five-occupant aircraft.",
+      "This Supplemental Type Certificate (STC) entails the installation of a seat belt in the center of the rear bench seat of a Cessna 182 aircraft to create a third seat position in the rear bench seat. This STC enables seating for three children, effectively transforming the C182 into a five-occupant aircraft",
     limitations:
       "The STC imposes weight restrictions, permitting a maximum weight of 100 lbs for the center occupant and 120 lbs each for the outboard occupants. It's important to note that the original equipment manufacturer's (OEM) two-place configuration for the bench remains unchanged, and therefore, the limitations only apply when the center position is occupied.",
     installation:
@@ -15,10 +15,12 @@ function STCPage() {
   };
   return (
     <>
+      <div className="STCNumContainer">
+        <h2>{airCraftInfo.FAASTCNumber}</h2>
+      </div>
       <Video />
       <div className="STCContainer">
         <div className="STCTextContainer">
-          <h2>{airCraftInfo.FAASTCNumber}</h2>
           <p>
             <strong>Aircraft:</strong> {airCraftInfo.aircraft}
           </p>
