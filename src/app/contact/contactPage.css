@@ -1,14 +1,17 @@
 .background {
-  background-image: url("../../../public/IMG_3638.jpeg"); /* Set the background image */
+  background-image: url("../../../public/jpeg-optimizer_contact_background.jpg"); /* Set the background image */
   background-size: cover; /* Cover the entire container */
   background-position: center; /* Center the background image */
   height: 100vh;
 }
 
-.contactInfoContainer {
+.contactInfoContainer div {
   display: flex;
   flex-direction: column;
-  font-size: 1.3rem;
+  padding: 15px;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
   color: black;
   width: 100%;
 }
@@ -27,11 +30,10 @@
 /*  */
 /*  */
 
-@media screen and (max-width: 1245px) {
-  .contactInfoContainer {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.2rem;
+@media screen and (max-width: 1248px) {
+  .contactInfoContainer div {
+    padding: 10px;
+    font-size: 2rem;
   }
 }
 
@@ -50,10 +52,9 @@
 /*  */
 
 @media screen and (max-width: 830px) {
-  .contactInfoContainer {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
+  .contactInfoContainer div {
+    padding: 10px;
+    font-size: 1.5rem;
   }
 }
 
@@ -72,10 +73,9 @@
 /*  */
 
 @media screen and (max-width: 610px) {
-  .contactInfoContainer {
-    display: flex;
-    flex-direction: column;
-    font-size: 1rem;
+  .contactInfoContainer div {
+    padding: 10px;
+    font-size: 1.5rem;
   }
 }
 

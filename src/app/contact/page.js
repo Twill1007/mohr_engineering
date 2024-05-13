@@ -12,9 +12,9 @@ function ContactPage() {
           }}
         >
           <div className="contactInfoContainer">
-            <h1>Call or email today!</h1>
-            <h1>(360)391-7468 </h1>
-            <h1>mohreng@outlook.com</h1>
+            <div>Call or email today!</div>
+            <div>(360)391-7468 </div>
+            <div>mohreng@outlook.com</div>
           </div>
         </div>
       </div>

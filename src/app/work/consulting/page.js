@@ -19,7 +19,7 @@ function ConsultingPage() {
     <div>
       <div className="imagesContainer">
         <Image
-          src="/PlaneLandSmall.png"
+          src="/jpeg-optimizer_PlaneLandSmall.jpg"
           width={2000}
           height={775}
           objectFit="cover"
