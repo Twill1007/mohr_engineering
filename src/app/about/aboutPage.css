@@ -4,45 +4,47 @@ h1 {
   padding-top: 50px;
 }
 
+.aboutPageRibbonImage {
+  position: relative;
+}
+
 .aboutTitle {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Or any color that contrasts well with your image */
+  padding: 10px;
+  z-index: 10;
+  font-size: 5rem;
+  text-align: center;
   animation-name: aboutFadeIn;
   animation-duration: 2s;
 }
 
 .aboutContainer {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 300px;
   animation-name: aboutFadeIn;
   animation-duration: 2s;
 }
 
 .aboutMohr {
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.4rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1.3rem;
   font-weight: 500;
+  line-height: 1.4;
   padding: 25px;
-  text-align: flex-start;
   animation-name: aboutFadeIn;
   animation-duration: 2s;
 }
 
-.aboutTrevorContainer {
-  display: flex;
-  justify-content: space-around;
-  font-size: 1.4rem;
-  width: 100%;
-  padding-bottom: 25px;
-  animation-name: aboutFadeIn;
-  animation-duration: 2s;
-}
-
-.aboutTrevor p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  padding: 25px;
-  text-align: left;
+.aboutMohr div {
+  font-weight: 500;
 }
 
 .aboutImageWrapper {
@@ -53,18 +55,61 @@ h1 {
 .aboutImageWrapper img {
   width: 25%;
   height: auto;
-  padding: 25px;
+  padding: 150px;
+}
+
+.aboutTrevorTitle {
+  padding-bottom: 50px;
+}
+
+.aboutTrevorContainer {
+  display: flex;
+  font-size: 1.4rem;
+  padding: 25px 300px;
+  animation-name: aboutFadeIn;
+  animation-duration: 2s;
+  background-color: #91b7d4;
+}
+
+.aboutTrevor {
+  padding: 0px 25px;
+  width: 65%;
+  text-align: left;
+}
+.aboutTrevor p {
+  padding: 0px 25px 25px 25px;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.aboutTrevorContainer2 {
+  display: flex;
+  padding: 150px 300px;
+}
+
+.aboutTrevorContainer2 p {
+  padding: 0px 40px 25px 40px;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  text-align: left;
+  width: 50%;
 }
 
 .aboutTrevorImageWrapper {
   position: relative;
-  padding: 15px;
-  width: 100%;
+  padding-left: 50px;
 }
 
-.aboutTrevorImageWrapper img {
+.aboutTrevorImageWrapperFamily {
+  position: relative;
+  padding-left: 50px;
+}
+
+.aboutTrevorImageWrapperFamily img {
+  width: 25%;
   height: auto;
-  padding: 25px;
+  padding: 150px;
 }
 
 @keyframes aboutFadeIn {
@@ -95,36 +140,119 @@ h1 {
 /*  */
 /*  */
 /*  */
+/*  */
+@media screen and (max-width: 1850px) {
+  .aboutContainer {
+    padding: 25px;
+    animation-name: aboutFadeIn;
+    animation-duration: 2s;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 1700px) {
+  .aboutTrevorContainer {
+    padding: 50px 100px;
+  }
 
-@media (max-width: 1450px) {
+  .aboutTrevorContainer2 {
+    padding: 50px 100px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media (max-width: 1350px) {
   .aboutContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation-name: aboutFadeIn;
-    animation-duration: 2s;
   }
+
+  .aboutMohr {
+    padding: 15px 0px;
+  }
+
+  .aboutImageWrapper {
+    position: relative;
+    padding: 0px;
+  }
+
+  .aboutTrevorTitle {
+    padding-bottom: 15px;
+  }
+
   .aboutTrevorContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    padding-bottom: 25px;
-    animation-name: aboutFadeIn;
-    animation-duration: 2s;
+    padding: 0px 75px 25px 75px;
   }
-  .aboutMohr {
-    font-size: 1.2rem;
+
+  .aboutTrevorImageWrapperFamily {
+    padding: 15px;
+  }
+
+  .aboutTrevor {
+    padding: 25px;
+    width: 100%;
+    text-align: left;
   }
 
   .aboutTrevor p {
     font-size: 1.2rem;
+    width: 100%;
   }
 
-  .aboutTrevorImageWrapper img {
-    width: 50%;
-    height: auto;
+  .aboutTrevorContainer2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-size: 1rem;
+    width: 100%;
     padding: 25px;
+  }
+
+  .aboutTrevorContainer2 p {
+    font-size: 1rem;
+
+    text-align: left;
+    width: 100%;
+    padding: 25px;
+  }
+
+  .aboutTrevorImageWrapper {
+    height: auto;
+  }
+
+  .aboutTrevorContainer2 {
+  }
+
+  h1 {
+    padding-top: 10px;
   }
 }
 
@@ -140,6 +268,26 @@ h1 {
 /*  */
 
 @media screen and (max-width: 950px) {
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .aboutTrevorContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 25px 50px;
+    animation-name: aboutFadeIn;
+    animation-duration: 2s;
+  }
+
+  .aboutTrevor p {
+    padding: 5px;
+    text-align: left;
+  }
   .aboutImageWrapper {
     position: relative;
     overflow: hidden;
@@ -152,7 +300,7 @@ h1 {
 
   .aboutTrevorImageWrapper {
     position: relative;
-    width: 50%;
+    width: 75%;
     height: auto;
     align-self: center;
   }
@@ -163,6 +311,10 @@ h1 {
 
   .aboutTrevor p {
     font-size: 1rem;
+  }
+
+  .aboutTitle {
+    font-size: 2rem;
   }
 }
 /*  */
@@ -201,8 +353,29 @@ h1 {
     font-size: 1rem;
   }
 
+  .aboutTrevor {
+    padding: 0px 25px 25px 25px;
+    font-size: 1rem;
+  }
+
   .aboutTrevor p {
     font-size: 1rem;
+  }
+  .aboutTrevorContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 25px 25px;
+    animation-name: aboutFadeIn;
+    animation-duration: 2s;
+  }
+  .aboutTitle {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+  .aboutTrevorImageWrapper {
+    position: relative;
+    padding-left: 0px;
   }
 }
 
@@ -221,11 +394,13 @@ h1 {
 /*  */
 /*  */
 
-/* @media screen and (max-width: 375px) {
-  .aboutTrevorImageWrapper {
-    position: relative;
-    width: 25%;
-    height: auto;
-    align-self: center;
+@media screen and (max-width: 450px) {
+  .aboutContainer {
+    font-size: 1rem;
+    padding: 25px;
   }
-} */
+  .aboutMohr {
+    width: 100%;
+    padding: 25px 25px;
+  }
+}

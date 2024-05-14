@@ -48,7 +48,11 @@ h2 {
   font-size: 1.7rem;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 5px;
+}
+
+.roboto-thin-title {
+  font-size: 5rem;
 }
 .roboto-thin-ital {
   font-family: "Roboto", sans-serif;
@@ -204,7 +208,7 @@ h2 {
   }
 
   .roboto-thin-title {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .roboto-thin-buttons {
@@ -423,7 +427,7 @@ h2 {
   }
 
   .roboto-thin-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .mohrIntroTextContainer {

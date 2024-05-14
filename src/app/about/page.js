@@ -4,18 +4,26 @@ import "@/app/about/aboutPage.css";
 function AboutPage() {
   return (
     <>
-      <h1 className="aboutTitle">About Mohr Engineering</h1>
-      <div className="aboutContainer">
-        <div className="aboutImageWrapper">
-          <Image
-            src="/IMG_3054.jpeg"
-            width={700}
-            height={500}
-            alt="View from Cessna"
-            priority
-          />
-        </div>
+      <div className="aboutPageRibbonImage">
+        <div className="aboutTitle">About Mohr Engineering</div>
+        <Image
+          src="/jpeg-optimizer_IMG_5460.jpg"
+          width={2000}
+          height={400}
+          objectFit="cover"
+          layout="responsive"
+          alt="View from interior of plane"
+        />
+      </div>
 
+      <div className="aboutContainer">
+        <div
+          style={{
+            borderTop: "8px solid #314459",
+            borderRadius: "20px",
+            width: "50%",
+          }}
+        ></div>
         <div className="aboutMohr">
           Mohr Engineering Services, headquartered in Blackfoot, Idaho, was
           established in 2019 by Trevor Williams with a focus on delivering
@@ -30,11 +38,18 @@ function AboutPage() {
           conventional standards and deliver unparalleled value to its
           clientele.
         </div>
+        <div
+          style={{
+            borderTop: "8px solid #314459",
+            borderRadius: "20px",
+            width: "50%",
+          }}
+        ></div>
       </div>
 
-      <h1 className="aboutTitle">About Trevor Williams</h1>
       <div className="aboutTrevorContainer">
         <div className="aboutTrevor">
+          <h1 className="aboutTrevorTitle">About Trevor Williams</h1>
           <p>
             Upon graduating with a mechanical engineering degree, I embarked on
             my professional journey as an engineer within the aerospace sector
@@ -46,7 +61,6 @@ function AboutPage() {
             pursued licensure as a Professional Engineer to enhance my
             versatility and resilience across various industries.
           </p>
-
           <p>
             After a decade of dedicated service as a Stress Engineer in
             aerospace, my family of five relocated to Idaho, a region with
@@ -58,33 +72,40 @@ function AboutPage() {
             leveraged my expertise in stress analysis across diverse projects,
             spanning from trains to aircraft.
           </p>
-
-          <p>
-            Concurrent with the inception of my company, I embarked on a
-            personal milestone by obtaining my private pilot’s license—a
-            long-standing aspiration. Following training spanning over 15
-            months, I successfully attained this goal, eager to share the
-            experience with my family. However, the limitation of four-seater
-            aircraft in nearby clubs prompted an innovative solution: the
-            development of a Supplemental Type Certificate (STC) to accommodate
-            an additional passenger in the back seat, effectively transforming
-            the aircraft into a five-seater. Recognizing the Cessna 182's
-            versatility and performance attributes, I committed to this
-            endeavor, enabling me to realize the vision of flying with my entire
-            family and fostering a shared appreciation for aviation. For further
-            details on the STC development, please refer to the dedicated
-            section on our website.
-          </p>
         </div>
-
         <div className="aboutTrevorImageWrapper">
           <Image
             src="/TrevImage2.jpg"
-            width={600}
-            height={800}
-            alt="Cessna"
+            width={350}
+            height={500}
+            alt="Trevor in pilot seat."
           />
         </div>
+      </div>
+      <div className="aboutTrevorContainer2">
+        <div className="aboutTrevorImageWrapperFamily">
+          <Image
+            src="/jpeg-optimizer_Mohr_FamPhoto (1).jpg"
+            width={800}
+            height={500}
+            alt="Trevor in pilot seat."
+          />
+        </div>
+        <p>
+          Concurrent with the inception of my company, I embarked on a personal
+          milestone by obtaining my private pilot’s license—a long-standing
+          aspiration. Following training spanning over 15 months, I successfully
+          attained this goal, eager to share the experience with my family.
+          However, the limitation of four-seater aircraft in nearby clubs
+          prompted an innovative solution: the development of a Supplemental
+          Type Certificate (STC) to accommodate an additional passenger in the
+          back seat, effectively transforming the aircraft into a five-seater.
+          Recognizing the Cessna 182's versatility and performance attributes, I
+          committed to this endeavor, enabling me to realize the vision of
+          flying with my entire family and fostering a shared appreciation for
+          aviation. For further details on the STC development, please refer to
+          the dedicated section on our website.
+        </p>
       </div>
     </>
   );

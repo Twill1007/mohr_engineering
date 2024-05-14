@@ -36,17 +36,17 @@ export function VideoLoop() {
 export function Video() {
   return (
     <div className="vidContainer">
-      <video
+      <iframe
         className="videoContainer"
         controls
         preload="none"
         poster="/kidsSeatBeltImage2.jpg"
-      >
-        <source
-          src="/MohrEng_All5_HD.mp4"
-          type="video/mp4"
-        />
-      </video>
+        src="https://m.youtube.com/watch?v=ES8rCaqibLA&feature=youtu.be"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        type="video/mp4"
+        allowFullScreen
+      ></iframe>
     </div>
   );
 }

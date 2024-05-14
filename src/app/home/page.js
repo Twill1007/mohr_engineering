@@ -23,9 +23,9 @@ function HomePage() {
               }}
             ></div>
             <div className="textOverlay">
-              <h1 className="roboto-thin-title">
+              <div className="roboto-thin-title">
                 Mohr Engineering Services, LLC
-              </h1>
+              </div>
 
               <h2 className="roboto-thin">
                 Providing <span className="roboto-thin-ital">MORE </span>
