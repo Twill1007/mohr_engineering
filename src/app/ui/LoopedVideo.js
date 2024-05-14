@@ -1,4 +1,8 @@
+import React from "react";
 import "@/app/ui/loopedVideo.css";
+import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
 
 export function VideoLoop() {
   return (
@@ -35,18 +39,26 @@ export function VideoLoop() {
 
 export function Video() {
   return (
-    <div className="vidContainer">
-      <video
-        className="videoContainer"
-        controls
-        preload="none"
-        poster="/kidsSeatBeltImage2.jpg"
-      >
-        <source
-          src="/MohrEng_All5_HD.mp4"
-          type="video/mp4"
-        />
-      </video>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+      <div className="vidContainer">
+        <Link
+          href="https://www.youtube.com/watch?v=ES8rCaqibLA"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="videoLink"
+        >
+          <img
+            src="/kidsSeatBeltImage2.jpg"
+            alt="Thumbnail for YouTube video"
+            className="videoThumbnail"
+          />
+          <FontAwesomeIcon
+            viewBox="-1000 -1000 2500 2500"
+            icon={faPlayCircle}
+            className="playIcon"
+          />
+        </Link>
+      </div>
     </div>
   );
 }
