@@ -9,7 +9,7 @@ function AboutPage() {
         <Image
           src="/jpeg-optimizer_IMG_5460.jpg"
           width={2000}
-          height={400}
+          height={600}
           objectFit="cover"
           layout="responsive"
           alt="View from interior of plane"

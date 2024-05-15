@@ -27,7 +27,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 300px;
+  padding: 100px 300px 150px 300px;
   animation-name: aboutFadeIn;
   animation-duration: 1s;
 }
@@ -98,6 +98,9 @@ h1 {
 
 .aboutTrevorImageWrapper {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-left: 50px;
 }
 

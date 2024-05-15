@@ -10,28 +10,26 @@ function HomePage() {
       <div className="mainContainer"></div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div className="loopedVideoContainer">
-          <div>
-            <VideoLoop />
-            <div
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                backgroundColor: "rgba(0, 0, 0, 0.5)", // Dark semi-transparent background
-              }}
-            ></div>
-            <div className="textOverlay">
-              <div className="roboto-thin-title">
-                Mohr Engineering Services, LLC
-              </div>
-
-              <h2 className="roboto-thin">
-                Providing <span className="roboto-thin-ital">MORE </span>
-                engineering for the aviation industry!
-              </h2>
+          <VideoLoop />
+          <div
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              backgroundColor: "rgba(0, 0, 0, 0.5)", // Dark semi-transparent background
+            }}
+          ></div>
+          <div className="textOverlay">
+            <div className="roboto-thin-title">
+              Mohr Engineering Services, LLC
             </div>
+
+            <h2 className="roboto-thin">
+              Providing <span className="roboto-thin-ital">MORE </span>
+              engineering for the aviation industry!
+            </h2>
           </div>
         </div>
       </div>
