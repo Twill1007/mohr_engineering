@@ -1,6 +1,6 @@
 import Image from "next/legacy/image";
 import "@/app/work/stc/stcPage.css";
-import { Video } from "@/app/ui/LoopedVideo";
+import { Video } from "@/app/ui/LoopedVideo1";
 
 function STCPage() {
   const airCraftInfo = {

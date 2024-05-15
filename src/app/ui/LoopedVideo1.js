@@ -1,5 +1,5 @@
 import React from "react";
-import "@/app/ui/loopedVideo.css";
+import "@/app/ui/loopedVideo1.css";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
