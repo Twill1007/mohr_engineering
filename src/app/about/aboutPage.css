@@ -19,7 +19,7 @@ h1 {
   font-size: 5rem;
   text-align: center;
   animation-name: aboutFadeIn;
-  animation-duration: 1s;
+  animation-duration: 2s;
 }
 
 .aboutContainer {
@@ -249,9 +249,6 @@ h1 {
 
   .aboutTrevorImageWrapper {
     height: auto;
-  }
-
-  .aboutTrevorContainer2 {
   }
 
   h1 {

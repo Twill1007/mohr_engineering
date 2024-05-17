@@ -17,18 +17,20 @@ const consultingList = [
 function ConsultingPage() {
   return (
     <div>
-      <div className="imagesContainer">
+      <div className="STCPageRibbonImage">
+        <div className="STCTitle">Consulting Services</div>
         <Image
           src="/jpeg-optimizer_PlaneLandSmall.jpg"
           width={2000}
-          height={775}
+          height={600}
           objectFit="cover"
           layout="responsive"
-          alt="Large Plane Landing"
+          alt="View from interior of plane"
         />
       </div>
+
       <div className="consultingTitleContainer">
-        <h1>Consulting Services</h1>
+        <h1></h1>
       </div>
       <div className="consultingTextContainer">
         <div>

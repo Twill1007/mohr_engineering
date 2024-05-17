@@ -1,5 +1,6 @@
 import Image from "next/legacy/image";
 import "@/app/about/aboutPage.css";
+import StyleBar from "../ui/styleBar";
 
 function AboutPage() {
   return (

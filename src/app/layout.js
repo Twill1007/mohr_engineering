@@ -2,11 +2,13 @@ import NavBar from "@/components/NavBar";
 import Head from "next/head";
 import Footer from "@/components/Footer";
 import "@/app/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
+        <Analytics />
         <Head>
           <link
             rel="preconnect"

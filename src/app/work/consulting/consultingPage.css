@@ -5,6 +5,24 @@
   animation-name: ConsultingFadeIn;
   animation-duration: 2s;
 }
+
+.consultingTitle {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white; /* Or any color that contrasts well with your image */
+  padding: 10px;
+  z-index: 10;
+  font-size: 5rem;
+  text-align: center;
+  animation-name: aboutFadeIn;
+  animation-duration: 2s;
+}
+
+.consultingPageRibbonImage {
+  position: relative;
+}
 .consultingTitleContainer {
   text-align: center;
   width: 100%;

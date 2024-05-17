@@ -25,11 +25,9 @@ function HomePage() {
             <div className="roboto-thin-title">
               Mohr Engineering Services, LLC
             </div>
-
-            <h2 className="roboto-thin">
-              Providing <span className="roboto-thin-ital">MORE </span>
-              engineering for the aviation industry!
-            </h2>
+            <div className="roboto-thin-subTitle">
+              Aviation Solutions Engineered for Success!
+            </div>
           </div>
         </div>
       </div>

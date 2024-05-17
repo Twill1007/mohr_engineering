@@ -1,61 +1,182 @@
-.STCNumContainer {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-top: 25px;
-  font-size: 1.5rem;
+.STCPageRibbonImage {
+  position: relative;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
 }
 
+.STCTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 10px;
+  z-index: 10;
+  font-size: 5rem;
+  text-align: center;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+.STCNumContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 2rem;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+.STCNumContainer h2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+.STCNumContainer h3 {
+  margin-top: 10px;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+.STCNumContainer h3:nth-child(3) {
+  padding-bottom: 50px;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 .STCContainer {
   display: flex;
   justify-content: space-around;
-  padding-top: 50px;
+  padding: 50px 100px;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.section2Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px 300px;
+  background-color: #c1d2e8;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
 }
 
-.STCTextContainer {
+.section2Container div:nth-child(1) {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  padding: 15px;
   width: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-color: transparent;
-  font-family: Arial, Helvetica, sans-serif;
-  align-items: center;
-  font-size: 1.4rem; /* Adjusted font size for better readability */
-  animation-name: STCFadeIn; /* Renamed animation for text */
-  animation-duration: 2s;
-  padding-bottom: 25px;
-}
-
-.STCTextContainer p {
-  padding: 20px 0px;
-  font-size: 1.2rem; /* Adjusted font size for better readability */
-  animation-name: STCFadeIn; /* Renamed animation for text */
+  animation-name: STCFadeIn;
   animation-duration: 2s;
 }
 
-.STCTextContainer p:nth-child(4) {
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.section3Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.section3Container h4 {
+  font-size: 1.3rem;
+}
+
+.section3Container h4:nth-child(1) {
+  padding-top: 50px;
+}
+.section3Container h4:nth-child(4) {
+  padding-bottom: 50px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.STCDetailInfoContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+  padding: 15px;
+}
+
+.STCDetailInfoContainer p {
+  padding: 10px 50px;
+  font-size: 1.2rem;
+  animation-name: STCFadeIn;
+  animation-duration: 2s;
+}
+
+.STCDetailInfoContainer p:nth-child(4) {
   padding-bottom: 30px; /* Adjust the value as needed */
 }
 
-.STCTextContainer h2 {
-  text-align: flex-start;
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* .descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.descriptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   width: 100%;
-  padding-bottom: 25px;
 }
 
-.STCTextContainer h3,
-.STCTextContainer h4 {
-  text-align: center;
-  padding: 10px 0px;
-}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 
-.STCTextContainer h3 {
-  margin-top: 25px;
-}
-
-.imageWrapper {
+.CessnaImageContainer {
   display: flex;
   justify-content: center;
-  padding: 25px 0px;
+  width: 100%;
+}
+
+.CessnaImageContainer img {
+  max-width: 100%;
+  height: auto;
 }
 
 .familySeatBeltImage {
@@ -64,17 +185,37 @@
   width: 100%;
 }
 
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0px;
+}
+
 .familySeatBeltImage > div {
   padding: 25px;
 }
 
 .CessnaPictureContainer img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+.contactInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0px;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
 @keyframes STCFadeIn {
   0% {
     opacity: 0;
@@ -100,24 +241,16 @@
 /*  */
 /*  */
 /*  */
-@media (max-width: 1732px) {
-  .STCContainer {
-    padding-top: 5px;
-  }
-  .STCTextContainer {
-    width: 75%;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
-    font-size: 1.3rem; /* Adjusted font size for better readability */
-    animation-name: STCFadeIn; /* Renamed animation for text */
-    animation-duration: 2s;
-    padding-bottom: 25px;
-  }
-  h3.STCTextContainer {
-    align-items: center;
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 1880px) {
+  .section2Container div:nth-child(1) {
+    font-size: 1.3rem;
+    line-height: 1.3;
   }
 }
 /*  */
@@ -136,8 +269,83 @@
 /*  */
 /*  */
 /*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 1750px) {
+  .STCTitle {
+    font-size: 3.5rem;
+  }
 
-@media (max-width: 1300px) {
+  .STCNumContainer {
+    padding-top: 10px;
+    font-size: 1.5rem;
+  }
+
+  .STCContainer {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+  }
+
+  .STCDetailInfoContainer {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size: 1.3rem; /* Adjusted font size for better readability */
+    animation-name: STCFadeIn; /* Renamed animation for text */
+    animation-duration: 2s;
+    padding: 15px 100px;
+  }
+
+  h3.STCDetailInfoContainer {
+    align-items: center;
+  }
+  .section2Container {
+    padding: 15px 300px;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 1300px) {
   .familySeatBeltImage {
     flex-direction: column;
     align-items: center;
@@ -147,28 +355,27 @@
     height: auto;
   }
 
-  .CessnaPictureContainer {
-    flex-direction: column;
+  .STCDetailInfoContainer {
     align-items: center;
-    width: 100%;
-    height: auto;
+    font-size: 1.3rem; /* Adjusted font size for better readability */
+
+    padding: 15px 25px;
   }
 
-  .STCTextContainer h2 {
-    font-size: 1.1rem;
-    padding-bottom: 15px;
-  }
-
-  .STCTextContainer {
-    font-size: 1.1rem;
-  }
-
-  .STCTextContainer p {
-    font-size: 1.1rem;
+  .STCDetailInfoContainer p {
+    font-size: 1.3rem;
   }
 
   .STCNumContainer {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+  }
+  .section2Container {
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 100px;
+  }
+  .section2Container div:nth-child(1) {
+    font-size: 1.4rem;
   }
 }
 
@@ -191,27 +398,71 @@
 /*  */
 /*  */
 /*  */
-
-@media (max-width: 425px) {
-  .imageWrapper {
-    text-align: center;
-    padding-top: 0px;
-  }
-  .STCTextContainer h2,
-  .STCTextContainer p {
-    padding: 10px 0px;
-    font-size: 0.9rem;
-  }
-  .STCTextContainer h3,
-  .STCTextContainer h4 {
-    text-align: center;
-    padding: 10px 0px;
-    font-size: 0.9rem;
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 1000px) {
+  .STCTitle {
+    font-size: 2.5rem;
   }
 
   .STCNumContainer {
     font-size: 1rem;
   }
+  .STCNumContainer h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .STCNumContainer h3 {
+    margin-top: 5px;
+  }
+
+  .STCNumContainer h3:nth-child(3) {
+    padding-bottom: 25px;
+  }
+  .section2Container {
+    padding: 15px 5px;
+  }
+
+  .section3Container {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .section3Container h4:nth-child(1) {
+    padding-top: 50px;
+  }
+  .section3Container h4:nth-child(4) {
+    padding-bottom: 50px;
+  }
+
+  .STCDetailInfoContainer {
+    width: 100%;
+    align-items: center;
+    padding: 15px 5px;
+  }
+
+  .STCDetailInfoContainer p {
+    width: 100%;
+    align-items: center;
+    font-size: 1.3rem;
+    padding: 15px 50px;
+  }
 }
 /*  */
 /*  */
@@ -226,25 +477,219 @@
 /*  */
 /*  */
 /*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 800px) {
+  .section2Container {
+    padding: 15px 5px;
+  }
+  .section2Container div:nth-child(1) {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    padding: 50px 10px;
+    width: 100%;
+  }
 
-/* @media (max-width: 950px) {
+  .section3Container {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+
+  .section3Container h4:nth-child(1) {
+    padding-top: 25px;
+  }
+  .section3Container h4:nth-child(4) {
+    padding-bottom: 25px;
+  }
+
+  .STCDetailInfoContainer p {
+    font-size: 1.3rem;
+    padding: 15px 5px;
+  }
+
   .STCContainer {
     display: flex;
+    justify-content: space-around;
+    padding: 25px 50px;
+  }
+  .contactInfoContainer h1 {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 5px;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 600px) {
+  .STCTitle {
+    font-size: 1.8rem;
+  }
+
+  .STCNumContainer {
+    padding-top: 25px;
+    font-size: 1rem;
+  }
+  .STCNumContainer h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+  }
+
+  .STCNumContainer h3 {
+    margin-top: 15px;
+    font-size: 1.3rem;
+  }
+
+  .STCNumContainer h3:nth-child(3) {
+    padding-bottom: 15px;
+  }
+  .section2Container {
     flex-direction: column;
     align-items: center;
-    padding-top: 100px;
+    padding: 15px 25px;
   }
-  .STCTextContainer h2 {
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+
+  .section3Container {
+    font-size: 1rem;
+  }
+
+  .section3Container h4 {
+    padding: 15px;
+    line-height: 1;
+  }
+
+  .section3Container h4:nth-child(1) {
+    padding-top: 25px;
+  }
+  .section3Container h4:nth-child(4) {
     padding-bottom: 25px;
   }
-  .STCTextContainer p {
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+@media screen and (max-width: 635px) {
+  .contactInfoContainer {
+    align-items: center;
+  }
+
+  .contactInfoContainer h1 {
+    font-size: 1.4rem;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 450px) {
+  .imageWrapper {
     text-align: center;
-    padding-bottom: 25px;
+    padding-top: 0px;
   }
-} */
+
+  .STCDetailInfoContainer p {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  .STCDetailInfoContainer h4 {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.3rem;
+  }
+
+  .STCNumContainer {
+    font-size: 1.3rem;
+  }
+
+  .contactInfoContainer {
+    align-items: center;
+  }
+
+  .contactInfoContainer h1 {
+    font-size: 1.3rem;
+  }
+}
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
