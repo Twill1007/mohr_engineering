@@ -17,8 +17,8 @@ const consultingList = [
 function ConsultingPage() {
   return (
     <div>
-      <div className="STCPageRibbonImage">
-        <div className="STCTitle">Consulting Services</div>
+      <div className="consultingPageRibbonImage">
+        <div className="consultingTitle">Consulting Services</div>
         <Image
           src="/jpeg-optimizer_PlaneLandSmall.jpg"
           width={2000}

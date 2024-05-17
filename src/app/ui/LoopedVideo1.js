@@ -25,7 +25,7 @@ export function VideoLoop() {
         loop
         playsInline
         autoPlay
-        preload="none"
+        preload="auto"
       >
         <source
           src="/LoopedVideo_V2.mp4"
