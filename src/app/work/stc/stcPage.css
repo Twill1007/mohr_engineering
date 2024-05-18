@@ -569,7 +569,7 @@
   }
 
   .STCNumContainer {
-    padding-top: 25px;
+    padding: 50px 15px;
     font-size: 1rem;
   }
   .STCNumContainer h2 {
@@ -678,6 +678,10 @@
 
   .contactInfoContainer h1 {
     font-size: 1.3rem;
+  }
+
+  .section3Container h4 {
+    line-height: 1.3;
   }
 }
 /*  */
