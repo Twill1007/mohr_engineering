@@ -16,7 +16,7 @@ function STCPage() {
   };
 
   const containerText1Section = {
-    text1: "Imagine being able to take one more passenger in your C182!",
+    text1: "Take one more in your C182!",
     text2: "There's room for one more!",
     text3:
       "This Supplemental Type Certificate (STC) upgrades your Cessna 182 to a 5-seater by adding a seat position at the center of the rear bench seat.",
