@@ -17,7 +17,7 @@ function STCPage() {
 
   const containerText1Section = {
     text1: "Imagine being able to take one more passenger in your C182!",
-    text2: "This STC will make that possible!",
+    text2: "There's room for one more!",
     text3:
       "This Supplemental Type Certificate (STC) upgrades your Cessna 182 to a 5-seater by adding a seat position at the center of the rear bench seat.",
   };
@@ -42,9 +42,9 @@ function STCPage() {
         />
       </div>
       <div className="STCNumContainer">
-        <h2>{airCraftInfo.FAASTCNumber}</h2>
         <h3>{containerText1Section.text1}</h3>
         <h3>{containerText1Section.text2}</h3>
+        <h3>{airCraftInfo.FAASTCNumber}</h3>
       </div>
       <div className="section2Container">
         <div className="section2ContainerChild1">
